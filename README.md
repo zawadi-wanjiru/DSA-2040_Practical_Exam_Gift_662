@@ -13,30 +13,41 @@ This repository contains the complete implementation of the DSA 2040 practical e
 
 ```
 DSA-2040_Practical_Exam_Gift_662/
-├── section_1_data_warehousing/
-│   ├── task_1_warehouse_design/
-│   │   ├── star_schema_diagram.png          # Star schema visualization
-│   │   ├── create_tables.sql                # SQL CREATE statements
-│   │   └── design_explanation.md            # Schema design rationale
-│   ├── task_2_etl_process/
-│   │   ├── etl_retail.py                    # ETL implementation
-│   │   ├── retail_data.csv                  # Generated synthetic data
-│   │   └── retail_dw.db                     # SQLite database
-│   └── task_3_olap_queries/
-│       ├── olap_queries.sql                 # Roll-up, Drill-down, Slice queries
-│       ├── sales_visualization.png          # Query result visualization
-│       └── analysis_report.md               # OLAP analysis report
-├── section_2_data_mining/
-│   ├── task_1_preprocessing/
-│   │   ├── preprocessing_iris.py            # Data preprocessing & exploration
-│   │   └── visualizations/                  # Pairplot, heatmap, boxplots
-│   ├── task_2_clustering/
-│   │   ├── clustering_iris.py               # K-Means clustering
-│   │   └── visualizations/                  # Cluster plots, elbow curve
-│   └── task_3_classification_association/
-│       ├── mining_iris_basket.py            # Classification & Apriori
-│       ├── datasets/                        # Synthetic transactional data
-│       └── visualizations/                  # Decision tree, comparisons
+├── scripts/
+│   ├── etl_retail.py                    # ETL implementation
+│   ├── run_olap_analysis.py             # OLAP queries runner
+│   ├── preprocessing_iris.py            # Data preprocessing
+│   ├── clustering_iris.py               # K-Means clustering
+│   └── mining_iris_basket.py            # Classification & Apriori
+├── sql/
+│   ├── schema.sql                       # Star schema definition
+│   └── olap_queries.sql                 # OLAP queries
+├── datasets/
+│   ├── retail_data.csv                  # Synthetic retail data
+│   ├── retail_dw.db                     # SQLite database
+│   ├── iris_normalized.csv              # Normalized Iris data
+│   ├── iris_train.csv                   # Training set
+│   ├── iris_test.csv                    # Testing set
+│   └── transactions.csv                 # Transactional data
+├── images/
+│   ├── star_schema_diagram.png          # Star schema diagram
+│   ├── sales_visualization.png          # OLAP visualizations
+│   ├── sales_by_country.png             # Country sales chart
+│   ├── pairplot.png                     # Iris pairplot
+│   ├── correlation_heatmap.png          # Feature correlations
+│   ├── boxplots.png                     # Outlier detection
+│   ├── distributions.png                # Feature distributions
+│   ├── elbow_curve.png                  # K-Means elbow curve
+│   ├── cluster_comparison.png           # Cluster analysis
+│   ├── pca_clusters.png                 # PCA visualization
+│   ├── cluster_pairplot.png             # Cluster pairplot
+│   ├── decision_tree.png                # Decision tree
+│   ├── classifier_comparison.png        # Classifier metrics
+│   └── association_rules.png            # Association rules
+├── reports/
+│   ├── design_explanation.md            # Schema design rationale
+│   ├── analysis_report.md               # OLAP analysis
+│   └── clustering_analysis.md           # Clustering report
 ├── DSA 2040 FS 2025 End Semester Exam.pdf
 ├── README.md
 └── .gitignore
@@ -62,9 +73,9 @@ pip install pandas numpy scikit-learn matplotlib seaborn mlxtend faker
 
 **Files:**
 
-- `section_1_data_warehousing/task_1_warehouse_design/create_tables.sql`
-- `section_1_data_warehousing/task_1_warehouse_design/star_schema_diagram.png`
-- `section_1_data_warehousing/task_1_warehouse_design/design_explanation.md`
+- `sql/schema.sql`
+- `images/star_schema_diagram.png`
+- `reports/design_explanation.md`
 
 **Description:** Designed a star schema for a retail data warehouse with:
 
@@ -77,9 +88,9 @@ pip install pandas numpy scikit-learn matplotlib seaborn mlxtend faker
 
 **Files:**
 
-- `section_1_data_warehousing/task_2_etl_process/etl_retail.py`
-- `section_1_data_warehousing/task_2_etl_process/retail_dw.db`
-- `section_1_data_warehousing/task_2_etl_process/retail_data.csv`
+- `scripts/etl_retail.py`
+- `datasets/retail_dw.db`
+- `datasets/retail_data.csv`
 
 **Description:** Complete ETL pipeline that:
 
@@ -90,18 +101,18 @@ pip install pandas numpy scikit-learn matplotlib seaborn mlxtend faker
 **Run:**
 
 ```bash
-python section_1_data_warehousing/task_2_etl_process/etl_retail.py
+python scripts/etl_retail.py
 ```
 
 ### Task 3: OLAP Queries and Analysis (15 Marks)
 
 **Files:**
 
-- `section_1_data_warehousing/task_3_olap_queries/olap_queries.sql`
-- `section_1_data_warehousing/task_3_olap_queries/run_olap_analysis.py`
-- `section_1_data_warehousing/task_3_olap_queries/sales_visualization.png`
-- `section_1_data_warehousing/task_3_olap_queries/sales_by_country.png`
-- `section_1_data_warehousing/task_3_olap_queries/analysis_report.md`
+- `sql/olap_queries.sql`
+- `scripts/run_olap_analysis.py`
+- `images/sales_visualization.png`
+- `images/sales_by_country.png`
+- `reports/analysis_report.md`
 
 **Description:** Implemented OLAP operations:
 
@@ -116,8 +127,8 @@ python section_1_data_warehousing/task_2_etl_process/etl_retail.py
 
 **Files:**
 
-- `section_2_data_mining/task_1_preprocessing/preprocessing_iris.py`
-- `section_2_data_mining/task_1_preprocessing/visualizations/`
+- `scripts/preprocessing_iris.py`
+- `images/`
 
 **Description:** Preprocessing and exploration of Iris dataset including:
 
@@ -129,16 +140,16 @@ python section_1_data_warehousing/task_2_etl_process/etl_retail.py
 **Run:**
 
 ```bash
-python section_2_data_mining/task_1_preprocessing/preprocessing_iris.py
+python scripts/preprocessing_iris.py
 ```
 
 ### Task 2: Clustering (15 Marks)
 
 **Files:**
 
-- `section_2_data_mining/task_2_clustering/clustering_iris.py`
-- `section_2_data_mining/task_2_clustering/clustering_analysis.md`
-- `section_2_data_mining/task_2_clustering/visualizations/` (elbow curve, cluster plots, PCA)
+- `scripts/clustering_iris.py`
+- `reports/clustering_analysis.md`
+- `images/` (elbow curve, cluster plots, PCA)
 
 **Description:** K-Means clustering implementation with:
 
@@ -151,16 +162,16 @@ python section_2_data_mining/task_1_preprocessing/preprocessing_iris.py
 **Run:**
 
 ```bash
-python section_2_data_mining/task_2_clustering/clustering_iris.py
+python scripts/clustering_iris.py
 ```
 
 ### Task 3: Classification and Association Rule Mining (20 Marks)
 
 **Files:**
 
-- `section_2_data_mining/task_3_classification_association/mining_iris_basket.py`
-- `section_2_data_mining/task_3_classification_association/datasets/`
-- `section_2_data_mining/task_3_classification_association/visualizations/`
+- `scripts/mining_iris_basket.py`
+- `datasets/`
+- `images/`
 
 **Description:**
 
@@ -170,7 +181,7 @@ python section_2_data_mining/task_2_clustering/clustering_iris.py
 **Run:**
 
 ```bash
-python section_2_data_mining/task_3_classification_association/mining_iris_basket.py
+python scripts/mining_iris_basket.py
 ```
 
 ## Datasets Used
@@ -239,18 +250,18 @@ python section_2_data_mining/task_3_classification_association/mining_iris_baske
 
    ```bash
    # Section 1: Data Warehousing
-   python section_1_data_warehousing/task_2_etl_process/etl_retail.py
-   python section_1_data_warehousing/task_3_olap_queries/run_olap_analysis.py
+   python scripts/etl_retail.py
+   python scripts/run_olap_analysis.py
 
    # Section 2: Data Mining
-   python section_2_data_mining/task_1_preprocessing/preprocessing_iris.py
-   python section_2_data_mining/task_2_clustering/clustering_iris.py
-   python section_2_data_mining/task_3_classification_association/mining_iris_basket.py
+   python scripts/preprocessing_iris.py
+   python scripts/clustering_iris.py
+   python scripts/mining_iris_basket.py
    ```
 
 4. **View database:**
    ```bash
-   sqlite3 section_1_data_warehousing/task_2_etl_process/retail_dw.db
+   sqlite3 datasets/retail_dw.db
    # Or use DB Browser for SQLite GUI
    ```
 

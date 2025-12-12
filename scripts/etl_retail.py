@@ -129,7 +129,7 @@ def extract_data():
     df = generate_synthetic_data(num_rows=1000)
 
     # Save to CSV for reference
-    csv_path = 'retail_data.csv'
+    csv_path = '../datasets/retail_data.csv'
     df.to_csv(csv_path, index=False)
     logger.info(f"Saved raw data to {csv_path}")
     logger.info(f"Extracted {len(df)} rows")
@@ -267,7 +267,7 @@ def create_dimensions(df):
     }
 
 
-def load_to_database(df, dimensions, db_path='retail_dw.db'):
+def load_to_database(df, dimensions, db_path='../datasets/retail_dw.db'):
     """
     LOAD phase: Load data into SQLite database
 
@@ -285,7 +285,7 @@ def load_to_database(df, dimensions, db_path='retail_dw.db'):
     # Create tables using schema from Task 1
     logger.info("Creating database tables...")
 
-    with open('../task_1_warehouse_design/create_tables.sql', 'r') as f:
+    with open('../sql/schema.sql', 'r') as f:
         schema_sql = f.read()
         # Execute each statement separately
         for statement in schema_sql.split(';'):

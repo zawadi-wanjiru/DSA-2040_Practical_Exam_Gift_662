@@ -39,7 +39,7 @@ def load_preprocessed_data():
     print("LOADING PREPROCESSED DATA")
     print("=" * 70)
 
-    df = pd.read_csv('../task_1_preprocessing/iris_normalized.csv')
+    df = pd.read_csv('../datasets/iris_normalized.csv')
 
     # Features (exclude species column)
     feature_cols = [col for col in df.columns if col not in ['species', 'species_name']]
@@ -177,7 +177,7 @@ def plot_elbow_curve(experiment_results):
     axes[1].set_xticks(k_values)
 
     plt.tight_layout()
-    plt.savefig('visualizations/elbow_curve.png', dpi=300, bbox_inches='tight')
+    plt.savefig('../images/elbow_curve.png', dpi=300, bbox_inches='tight')
     print("✓ Saved: visualizations/elbow_curve.png")
     plt.close()
 
@@ -229,7 +229,7 @@ def visualize_clusters(X, y, clusters, kmeans):
     plt.colorbar(scatter2, ax=axes[1], label='Species')
 
     plt.tight_layout()
-    plt.savefig('visualizations/cluster_comparison.png', dpi=300, bbox_inches='tight')
+    plt.savefig('../images/cluster_comparison.png', dpi=300, bbox_inches='tight')
     print("✓ Saved: visualizations/cluster_comparison.png")
     plt.close()
 
@@ -259,7 +259,7 @@ def visualize_clusters(X, y, clusters, kmeans):
     plt.colorbar(scatter2, ax=axes[1], label='Species')
 
     plt.tight_layout()
-    plt.savefig('visualizations/pca_clusters.png', dpi=300, bbox_inches='tight')
+    plt.savefig('../images/pca_clusters.png', dpi=300, bbox_inches='tight')
     print("✓ Saved: visualizations/pca_clusters.png")
     plt.close()
 
@@ -285,7 +285,7 @@ def visualize_clusters(X, y, clusters, kmeans):
 
     plt.suptitle('K-Means Clusters - All Feature Pairs', fontsize=16, fontweight='bold', y=0.995)
     plt.tight_layout()
-    plt.savefig('visualizations/cluster_pairplot.png', dpi=300, bbox_inches='tight')
+    plt.savefig('../images/cluster_pairplot.png', dpi=300, bbox_inches='tight')
     print("✓ Saved: visualizations/cluster_pairplot.png")
     plt.close()
 
@@ -378,10 +378,10 @@ def main():
     print("CLUSTERING COMPLETE!")
     print("=" * 70)
     print("\nGenerated Files:")
-    print("  - visualizations/elbow_curve.png")
-    print("  - visualizations/cluster_comparison.png")
-    print("  - visualizations/pca_clusters.png")
-    print("  - visualizations/cluster_pairplot.png")
+    print("  - ../images/elbow_curve.png")
+    print("  - ../images/cluster_comparison.png")
+    print("  - ../images/pca_clusters.png")
+    print("  - ../images/cluster_pairplot.png")
 
     return kmeans_3, clusters_3
 
