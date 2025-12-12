@@ -59,12 +59,13 @@ pip install pandas numpy scikit-learn matplotlib seaborn mlxtend faker
 ### Task 1: Data Warehouse Design (15 Marks)
 **Files:**
 - `section_1_data_warehousing/task_1_warehouse_design/create_tables.sql`
-- `section_1_data_warehousing/task_1_warehouse_design/star_schema_diagram.png`
-- `section_1_data_warehousing/task_1_warehouse_design/design_explanation.md`
+- `section_1_data_warehousing/task_1_warehouse_design/design_explanation.md` (includes ASCII schema diagram)
 
 **Description:** Designed a star schema for a retail data warehouse with:
 - 1 Fact Table (SalesFact)
 - 4 Dimension Tables (CustomerDim, ProductDim, TimeDim, StoreDim)
+- Complete SQL CREATE statements with constraints and indexes
+- Detailed explanation of star schema vs snowflake design choice
 
 ### Task 2: ETL Process Implementation (20 Marks)
 **Files:**
@@ -85,13 +86,16 @@ python section_1_data_warehousing/task_2_etl_process/etl_retail.py
 ### Task 3: OLAP Queries and Analysis (15 Marks)
 **Files:**
 - `section_1_data_warehousing/task_3_olap_queries/olap_queries.sql`
+- `section_1_data_warehousing/task_3_olap_queries/run_olap_analysis.py`
 - `section_1_data_warehousing/task_3_olap_queries/sales_visualization.png`
+- `section_1_data_warehousing/task_3_olap_queries/sales_by_country.png`
 - `section_1_data_warehousing/task_3_olap_queries/analysis_report.md`
 
 **Description:** Implemented OLAP operations:
 - Roll-up: Total sales by country and quarter
-- Drill-down: Sales by country and month
-- Slice: Sales for specific product category
+- Drill-down: Sales by country and month (UK detailed analysis)
+- Slice: Sales for Electronics category
+- Comprehensive analysis report with business insights
 
 ## Section 2: Data Mining (50 Marks)
 
@@ -114,12 +118,15 @@ python section_2_data_mining/task_1_preprocessing/preprocessing_iris.py
 ### Task 2: Clustering (15 Marks)
 **Files:**
 - `section_2_data_mining/task_2_clustering/clustering_iris.py`
-- `section_2_data_mining/task_2_clustering/visualizations/`
+- `section_2_data_mining/task_2_clustering/clustering_analysis.md`
+- `section_2_data_mining/task_2_clustering/visualizations/` (elbow curve, cluster plots, PCA)
 
 **Description:** K-Means clustering implementation with:
-- Optimal k determination using elbow method
-- Cluster quality evaluation using Adjusted Rand Index
-- Visualization of clusters
+- Optimal k determination using elbow method (tested k=2 to k=10)
+- Cluster quality evaluation: ARI=0.7163, Silhouette=0.5048
+- Comparison of k=2, k=3, and k=4
+- Detailed misclassification analysis
+- Real-world applications discussion
 
 **Run:**
 ```bash
@@ -146,13 +153,16 @@ python section_2_data_mining/task_3_classification_association/mining_iris_baske
 ### Data Warehousing
 - **Synthetic Retail Data**: Generated using Python's Faker library and numpy
 - Structure: ~1000 transactions with InvoiceNo, CustomerID, ProductID, Quantity, UnitPrice, InvoiceDate, Country
-- Generation ensures reproducibility with random seed
+- Random seed: 672662 (ensures reproducibility)
+- Final processed: 505 transactions after filtering (last year data, no outliers)
 
 ### Data Mining
 - **Iris Dataset**: Loaded from scikit-learn built-in datasets
 - 150 samples, 4 features (sepal/petal dimensions), 3 classes (species)
+- Split: 120 training, 30 testing (80/20 stratified split)
 - **Synthetic Transactional Data**: Generated for association rule mining
-- 50 transactions with 20 unique items
+- 50 transactions with 20 unique grocery items
+- Random seed: 672662
 
 ## Self-Assessment
 
@@ -180,15 +190,24 @@ python section_2_data_mining/task_3_classification_association/mining_iris_baske
 
 ## How to Run Everything
 
-1. **Install dependencies:**
+### Option 1: Using Virtual Environment (Recommended)
+
+1. **Create and activate virtual environment:**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+
+2. **Install dependencies:**
    ```bash
    pip install pandas numpy scikit-learn matplotlib seaborn mlxtend faker
    ```
 
-2. **Run all tasks in order:**
+3. **Run all tasks in order:**
    ```bash
    # Section 1: Data Warehousing
    python section_1_data_warehousing/task_2_etl_process/etl_retail.py
+   python section_1_data_warehousing/task_3_olap_queries/run_olap_analysis.py
 
    # Section 2: Data Mining
    python section_2_data_mining/task_1_preprocessing/preprocessing_iris.py
@@ -196,11 +215,23 @@ python section_2_data_mining/task_3_classification_association/mining_iris_baske
    python section_2_data_mining/task_3_classification_association/mining_iris_basket.py
    ```
 
-3. **View database:**
+4. **View database:**
    ```bash
    sqlite3 section_1_data_warehousing/task_2_etl_process/retail_dw.db
    # Or use DB Browser for SQLite GUI
    ```
+
+### Option 2: System-wide Installation
+
+If you prefer system-wide packages:
+```bash
+pip install pandas numpy scikit-learn matplotlib seaborn mlxtend faker
+# Then run the scripts as shown above
+```
+
+**Note:** Task dependencies:
+- Section 1: Task 2 must run before Task 3 (creates database)
+- Section 2: Task 1 must run before Tasks 2 & 3 (creates preprocessed data)
 
 ## References
 - Pandas Documentation: https://pandas.pydata.org/docs/
