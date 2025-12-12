@@ -46,8 +46,8 @@ def load_train_test_data():
     print("LOADING TRAIN/TEST DATA")
     print("=" * 70)
 
-    train_df = pd.read_csv('../datasets/iris_train.csv')
-    test_df = pd.read_csv('../datasets/iris_test.csv')
+    train_df = pd.read_csv('datasets/iris_train.csv')
+    test_df = pd.read_csv('datasets/iris_test.csv')
 
     # Features and labels
     feature_cols = [col for col in train_df.columns if col not in ['species', 'species_name']]
@@ -135,7 +135,7 @@ def visualize_decision_tree(dt_model, feature_names):
              fontsize=10)
     plt.title('Decision Tree Classifier - Iris Species', fontsize=16, fontweight='bold', pad=20)
     plt.tight_layout()
-    plt.savefig('../images/decision_tree.png', dpi=300, bbox_inches='tight')
+    plt.savefig('images/decision_tree.png', dpi=300, bbox_inches='tight')
     print("✓ Saved: visualizations/decision_tree.png")
     plt.close()
 
@@ -221,7 +221,7 @@ def compare_classifiers(dt_metrics, knn_metrics):
         ax.bar_label(container, fmt='%.3f', padding=3)
 
     plt.tight_layout()
-    plt.savefig('../images/classifier_comparison.png', dpi=300, bbox_inches='tight')
+    plt.savefig('images/classifier_comparison.png', dpi=300, bbox_inches='tight')
     print("\n✓ Saved: visualizations/classifier_comparison.png")
     plt.close()
 
@@ -322,7 +322,7 @@ def generate_transaction_data(n_transactions=50):
         'TransactionID': range(1, len(transactions)+1),
         'Items': [', '.join(sorted(t)) for t in transactions]
     })
-    trans_df.to_csv('../datasets/transactions.csv', index=False)
+    trans_df.to_csv('datasets/transactions.csv', index=False)
     print("\n✓ Saved: datasets/transactions.csv")
 
     return transactions
@@ -431,7 +431,7 @@ def display_top_rules(rules, top_n=5):
     plt.colorbar(scatter, label='Lift')
     plt.grid(True, alpha=0.3)
     plt.tight_layout()
-    plt.savefig('../images/association_rules.png', dpi=300, bbox_inches='tight')
+    plt.savefig('images/association_rules.png', dpi=300, bbox_inches='tight')
     print("\n✓ Saved: visualizations/association_rules.png")
     plt.close()
 
@@ -542,11 +542,11 @@ def main():
     print("=" * 70)
     print("\nGenerated Files:")
     print("  Part A - Classification:")
-    print("    - ../images/decision_tree.png")
-    print("    - ../images/classifier_comparison.png")
+    print("    - images/decision_tree.png")
+    print("    - images/classifier_comparison.png")
     print("  Part B - Association Rules:")
-    print("    - ../datasets/transactions.csv")
-    print("    - ../images/association_rules.png")
+    print("    - datasets/transactions.csv")
+    print("    - images/association_rules.png")
 
 
 if __name__ == "__main__":

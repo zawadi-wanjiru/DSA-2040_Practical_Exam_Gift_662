@@ -175,9 +175,9 @@ def create_visualizations(df, df_normalized):
                            plot_kws={'alpha': 0.6},
                            palette='Set2')
     pairplot.fig.suptitle('Iris Dataset - Pairplot by Species', y=1.01, fontsize=16, fontweight='bold')
-    plt.savefig('../images/pairplot.png', dpi=300, bbox_inches='tight')
+    plt.savefig('images/pairplot.png', dpi=300, bbox_inches='tight')
     plt.close()
-    print("  ✓ Saved: ../images/pairplot.png")
+    print("  ✓ Saved: images/pairplot.png")
 
     # 2. Correlation Heatmap
     print("  Creating correlation heatmap...")
@@ -187,9 +187,9 @@ def create_visualizations(df, df_normalized):
                 square=True, linewidths=1, cbar_kws={'label': 'Correlation'})
     plt.title('Feature Correlation Heatmap', fontsize=16, fontweight='bold', pad=20)
     plt.tight_layout()
-    plt.savefig('../images/correlation_heatmap.png', dpi=300, bbox_inches='tight')
+    plt.savefig('images/correlation_heatmap.png', dpi=300, bbox_inches='tight')
     plt.close()
-    print("  ✓ Saved: ../images/correlation_heatmap.png")
+    print("  ✓ Saved: images/correlation_heatmap.png")
 
     # 3. Boxplots for outlier detection
     print("  Creating boxplots...")
@@ -205,9 +205,9 @@ def create_visualizations(df, df_normalized):
     plt.suptitle('Boxplots for Outlier Detection by Species',
                  fontsize=16, fontweight='bold', y=1.00)
     plt.tight_layout()
-    plt.savefig('../images/boxplots.png', dpi=300, bbox_inches='tight')
+    plt.savefig('images/boxplots.png', dpi=300, bbox_inches='tight')
     plt.close()
-    print("  ✓ Saved: ../images/boxplots.png")
+    print("  ✓ Saved: images/boxplots.png")
 
     # 4. Distribution plots
     print("  Creating distribution plots...")
@@ -227,9 +227,9 @@ def create_visualizations(df, df_normalized):
     plt.suptitle('Feature Distributions by Species',
                  fontsize=16, fontweight='bold', y=1.00)
     plt.tight_layout()
-    plt.savefig('../images/distributions.png', dpi=300, bbox_inches='tight')
+    plt.savefig('images/distributions.png', dpi=300, bbox_inches='tight')
     plt.close()
-    print("  ✓ Saved: ../images/distributions.png")
+    print("  ✓ Saved: images/distributions.png")
 
     print("\n✓ All visualizations created successfully")
 
@@ -352,28 +352,28 @@ def main():
     print("SAVING PREPROCESSED DATA")
     print("=" * 70)
 
-    df_normalized.to_csv('../datasets/iris_normalized.csv', index=False)
-    print("✓ Saved normalized data: ../datasets/iris_normalized.csv")
+    df_normalized.to_csv('datasets/iris_normalized.csv', index=False)
+    print("✓ Saved normalized data: datasets/iris_normalized.csv")
 
     # Save train/test splits
     train_data = pd.concat([X_train, y_train], axis=1)
     test_data = pd.concat([X_test, y_test], axis=1)
-    train_data.to_csv('../datasets/iris_train.csv', index=False)
-    test_data.to_csv('../datasets/iris_test.csv', index=False)
-    print("✓ Saved training data: ../datasets/iris_train.csv")
-    print("✓ Saved testing data: ../datasets/iris_test.csv")
+    train_data.to_csv('datasets/iris_train.csv', index=False)
+    test_data.to_csv('datasets/iris_test.csv', index=False)
+    print("✓ Saved training data: datasets/iris_train.csv")
+    print("✓ Saved testing data: datasets/iris_test.csv")
 
     print("\n" + "=" * 70)
     print("PREPROCESSING AND EXPLORATION COMPLETE!")
     print("=" * 70)
     print("\nGenerated Files:")
-    print("  - ../datasets/iris_normalized.csv (normalized dataset)")
-    print("  - ../datasets/iris_train.csv (training set)")
-    print("  - ../datasets/iris_test.csv (testing set)")
-    print("  - ../images/pairplot.png")
-    print("  - ../images/correlation_heatmap.png")
-    print("  - ../images/boxplots.png")
-    print("  - ../images/distributions.png")
+    print("  - datasets/iris_normalized.csv (normalized dataset)")
+    print("  - datasets/iris_train.csv (training set)")
+    print("  - datasets/iris_test.csv (testing set)")
+    print("  - images/pairplot.png")
+    print("  - images/correlation_heatmap.png")
+    print("  - images/boxplots.png")
+    print("  - images/distributions.png")
 
     return df, df_normalized, X_train, X_test, y_train, y_test
 

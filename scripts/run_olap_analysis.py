@@ -16,7 +16,7 @@ sns.set_style("whitegrid")
 plt.rcParams['figure.figsize'] = (12, 6)
 
 # Database path
-DB_PATH = '../datasets/retail_dw.db'
+DB_PATH = 'datasets/retail_dw.db'
 
 
 def execute_query(query, description):
@@ -142,8 +142,8 @@ def main():
         axes[1, 1].set_title('Electronics Sales by Subcategory', fontsize=14, fontweight='bold')
 
     plt.tight_layout()
-    plt.savefig('../images/sales_visualization.png', dpi=300, bbox_inches='tight')
-    print("✓ Saved visualization: ../images/sales_visualization.png")
+    plt.savefig('images/sales_visualization.png', dpi=300, bbox_inches='tight')
+    print("✓ Saved visualization: images/sales_visualization.png")
 
     # Additional simple bar chart for country sales
     plt.figure(figsize=(12, 6))
@@ -155,8 +155,8 @@ def main():
     plt.xticks(range(len(top_10_countries)), top_10_countries.index, rotation=45, ha='right')
     plt.grid(axis='y', alpha=0.3, linestyle='--')
     plt.tight_layout()
-    plt.savefig('../images/sales_by_country.png', dpi=300, bbox_inches='tight')
-    print("✓ Saved visualization: ../images/sales_by_country.png")
+    plt.savefig('images/sales_by_country.png', dpi=300, bbox_inches='tight')
+    print("✓ Saved visualization: images/sales_by_country.png")
 
     print("\n" + "=" * 70)
     print("OLAP Analysis Complete!")

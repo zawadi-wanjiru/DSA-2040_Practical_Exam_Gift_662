@@ -86,7 +86,7 @@ This star schema effectively supports the required business queries:
 
 The star schema diagram below illustrates the relationship between the central fact table (SalesFact) and the four surrounding dimension tables:
 
-![Star Schema Diagram](../images/star_schema_diagram.png)
+![Star Schema Diagram](images/star_schema_diagram.png)
 
 **Diagram Legend:**
 - **Central**: SalesFact (Fact Table)
