@@ -1,6 +1,6 @@
 # DSA 2040 Practical Exam - Data Warehousing and Data Mining
 
-**Student:** Gift Wanjiru Gachunga (ID: xxx662)
+**Student:** Gift Wanjiru Gachunga (ID: 672662)
 **Course:** DSA 2040 - Data Warehousing and Data Mining
 **Exam Type:** End Semester Practical Exam
 **Total Marks:** 100

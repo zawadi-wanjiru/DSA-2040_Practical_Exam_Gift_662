@@ -1,7 +1,7 @@
 -- ============================================================================
 -- DSA 2040 Practical Exam - Section 1, Task 1
 -- Data Warehouse Schema Design for Retail Company
--- Student: Gift Wanjiru Gachunga (662)
+-- Student: Gift Wanjiru Gachunga (672662)
 -- ============================================================================
 
 -- STAR SCHEMA DESIGN

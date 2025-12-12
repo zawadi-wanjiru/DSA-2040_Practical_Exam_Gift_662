@@ -1,6 +1,6 @@
 # Data Warehouse Schema Design - Task 1
 
-**Student:** Gift Wanjiru Gachunga (662)
+**Student:** Gift Wanjiru Gachunga (672662)
 **Course:** DSA 2040 - Data Warehousing and Data Mining
 **Task:** Section 1, Task 1 - Data Warehouse Design (15 Marks)
 

@@ -1,7 +1,7 @@
 """
 DSA 2040 Practical Exam - Section 1, Task 2
 ETL Process Implementation for Retail Data Warehouse
-Student: Gift Wanjiru Gachunga (662)
+Student: Gift Wanjiru Gachunga (672662)
 
 This script implements a complete ETL pipeline:
 - Extract: Generate synthetic retail data
@@ -17,8 +17,8 @@ import random
 import logging
 
 # Set random seed for reproducibility
-np.random.seed(662)
-random.seed(662)
+np.random.seed(672662)
+random.seed(672662)
 
 # Configure logging
 logging.basicConfig(
