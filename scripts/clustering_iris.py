@@ -178,7 +178,7 @@ def plot_elbow_curve(experiment_results):
 
     plt.tight_layout()
     plt.savefig('images/elbow_curve.png', dpi=300, bbox_inches='tight')
-    print("✓ Saved: visualizations/elbow_curve.png")
+    print("✓ Saved: images/elbow_curve.png")
     plt.close()
 
 
@@ -230,7 +230,7 @@ def visualize_clusters(X, y, clusters, kmeans):
 
     plt.tight_layout()
     plt.savefig('images/cluster_comparison.png', dpi=300, bbox_inches='tight')
-    print("✓ Saved: visualizations/cluster_comparison.png")
+    print("✓ Saved: images/cluster_comparison.png")
     plt.close()
 
     # 2. PCA visualization
@@ -260,7 +260,7 @@ def visualize_clusters(X, y, clusters, kmeans):
 
     plt.tight_layout()
     plt.savefig('images/pca_clusters.png', dpi=300, bbox_inches='tight')
-    print("✓ Saved: visualizations/pca_clusters.png")
+    print("✓ Saved: images/pca_clusters.png")
     plt.close()
 
     # 3. All feature pairs
@@ -286,7 +286,7 @@ def visualize_clusters(X, y, clusters, kmeans):
     plt.suptitle('K-Means Clusters - All Feature Pairs', fontsize=16, fontweight='bold', y=0.995)
     plt.tight_layout()
     plt.savefig('images/cluster_pairplot.png', dpi=300, bbox_inches='tight')
-    print("✓ Saved: visualizations/cluster_pairplot.png")
+    print("✓ Saved: images/cluster_pairplot.png")
     plt.close()
 
     print("\n✓ All visualizations created successfully")

@@ -136,7 +136,7 @@ def visualize_decision_tree(dt_model, feature_names):
     plt.title('Decision Tree Classifier - Iris Species', fontsize=16, fontweight='bold', pad=20)
     plt.tight_layout()
     plt.savefig('images/decision_tree.png', dpi=300, bbox_inches='tight')
-    print("✓ Saved: visualizations/decision_tree.png")
+    print("✓ Saved: images/decision_tree.png")
     plt.close()
 
 
@@ -222,7 +222,7 @@ def compare_classifiers(dt_metrics, knn_metrics):
 
     plt.tight_layout()
     plt.savefig('images/classifier_comparison.png', dpi=300, bbox_inches='tight')
-    print("\n✓ Saved: visualizations/classifier_comparison.png")
+    print("\n✓ Saved: images/classifier_comparison.png")
     plt.close()
 
     # Determine better classifier
@@ -432,7 +432,7 @@ def display_top_rules(rules, top_n=5):
     plt.grid(True, alpha=0.3)
     plt.tight_layout()
     plt.savefig('images/association_rules.png', dpi=300, bbox_inches='tight')
-    print("\n✓ Saved: visualizations/association_rules.png")
+    print("\n✓ Saved: images/association_rules.png")
     plt.close()
 
     return top_rules
