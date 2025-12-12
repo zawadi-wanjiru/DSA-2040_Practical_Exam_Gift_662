@@ -1,0 +1,1001 @@
+InvoiceNo,StockCode,Description,Category,Subcategory,Quantity,InvoiceDate,UnitPrice,CustomerID,Country
+INV-100000,ELEC-001,"Laptop Pro 15""",Electronics,Computers,17,2023-12-07 00:00:00,853.26,CUST-0082,Netherlands
+INV-100001,HOME-002,Desk Lamp,Home & Garden,Lighting,43,2025-05-31 00:00:00,37.34,CUST-0060,UK
+INV-100002,SPORT-001,Yoga Mat,Sports,Fitness,29,2025-01-21 00:00:00,24.97,CUST-0077,Portugal
+INV-100003,CLOTH-003,Winter Jacket,Clothing,Outerwear,18,2024-11-27 00:00:00,142.7,CUST-0013,Germany
+INV-100004,HOME-001,Coffee Maker,Home & Garden,Kitchen,31,2025-03-01 00:00:00,62.31,CUST-0040,Belgium
+INV-100005,CLOTH-002,Jeans Classic,Clothing,Bottoms,11,2024-01-31 00:00:00,47.09,CUST-0083,Switzerland
+INV-100006,HOME-001,Coffee Maker,Home & Garden,Kitchen,3,2024-03-08 00:00:00,63.06,CUST-0016,Austria
+INV-100007,ELEC-004,Bluetooth Speaker,Electronics,Audio,39,2025-03-25 00:00:00,82.22,CUST-0016,Germany
+INV-100008,CLOTH-001,Cotton T-Shirt,Clothing,Tops,10,2025-07-28 00:00:00,21.88,CUST-0095,Belgium
+INV-100009,SPORT-001,Yoga Mat,Sports,Fitness,20,2024-10-02 00:00:00,27.04,CUST-0099,Italy
+INV-100010,HOME-002,Desk Lamp,Home & Garden,Lighting,17,2025-02-03 00:00:00,33.29,CUST-0006,UK
+INV-100011,CLOTH-001,Cotton T-Shirt,Clothing,Tops,46,2023-09-22 00:00:00,21.76,CUST-0030,Austria
+INV-100012,ELEC-003,USB-C Cable,Electronics,Accessories,2,2024-10-25 00:00:00,13.37,CUST-0081,Netherlands
+INV-100013,CLOTH-002,Jeans Classic,Clothing,Bottoms,27,2024-04-05 00:00:00,53.27,CUST-0053,Netherlands
+INV-100014,ELEC-002,Wireless Mouse,Electronics,Accessories,20,2025-07-26 00:00:00,28.16,CUST-0029,France
+INV-100015,ELEC-004,Bluetooth Speaker,Electronics,Audio,34,2025-03-14 00:00:00,73.42,CUST-0027,UK
+INV-100016,ELEC-003,USB-C Cable,Electronics,Accessories,45,2025-01-20 00:00:00,12.45,CUST-0037,Italy
+INV-100017,SPORT-002,Running Shoes,Sports,Footwear,11,2024-07-16 00:00:00,95.21,CUST-0097,UK
+INV-100018,SPORT-001,Yoga Mat,Sports,Fitness,5,2023-10-22 00:00:00,23.11,CUST-0087,UK
+INV-100019,SPORT-001,Yoga Mat,Sports,Fitness,45,2023-12-24 00:00:00,26.83,CUST-0097,Spain
+INV-100020,BOOK-001,Python Programming,Books,Technology,25,2025-03-14 00:00:00,39.62,CUST-0054,UK
+INV-100021,HOME-001,Coffee Maker,Home & Garden,Kitchen,17,2023-11-11 00:00:00,64.73,CUST-0030,Switzerland
+INV-100022,ELEC-001,"Laptop Pro 15""",Electronics,Computers,31,2023-09-07 00:00:00,869.73,CUST-0071,Italy
+INV-100023,ELEC-004,Bluetooth Speaker,Electronics,Audio,6,2024-04-05 00:00:00,87.27,CUST-0073,Belgium
+INV-100024,ELEC-004,Bluetooth Speaker,Electronics,Audio,7,2024-11-07 00:00:00,75.64,CUST-0002,Spain
+INV-100025,CLOTH-002,Jeans Classic,Clothing,Bottoms,16,2023-10-30 00:00:00,54.53,CUST-0068,Netherlands
+INV-100026,HOME-002,Desk Lamp,Home & Garden,Lighting,15,2024-03-26 00:00:00,38.31,CUST-0020,Austria
+INV-100027,HOME-001,Coffee Maker,Home & Garden,Kitchen,9,2023-10-26 00:00:00,55.43,CUST-0023,Portugal
+INV-100028,HOME-001,Coffee Maker,Home & Garden,Kitchen,8,2023-10-10 00:00:00,59.74,CUST-0032,Switzerland
+INV-100029,SPORT-002,Running Shoes,Sports,Footwear,1,2024-08-29 00:00:00,87.43,CUST-0035,Austria
+INV-100030,ELEC-003,USB-C Cable,Electronics,Accessories,27,2025-03-28 00:00:00,12.69,CUST-0021,UK
+INV-100031,ELEC-001,"Laptop Pro 15""",Electronics,Computers,35,2025-01-15 00:00:00,846.35,CUST-0068,Netherlands
+INV-100032,CLOTH-001,Cotton T-Shirt,Clothing,Tops,32,2025-01-09 00:00:00,20.1,CUST-0036,UK
+INV-100033,ELEC-004,Bluetooth Speaker,Electronics,Audio,48,2024-02-29 00:00:00,0.0,CUST-0043,Germany
+INV-100034,CLOTH-002,Jeans Classic,Clothing,Bottoms,48,2023-12-23 00:00:00,45.8,CUST-0024,Switzerland
+INV-100035,BOOK-001,Python Programming,Books,Technology,14,2023-08-19 00:00:00,43.3,CUST-0043,Switzerland
+INV-100036,HOME-001,Coffee Maker,Home & Garden,Kitchen,31,2024-12-08 00:00:00,61.57,CUST-0100,Switzerland
+INV-100037,SPORT-001,Yoga Mat,Sports,Fitness,14,2024-02-17 00:00:00,24.94,CUST-0001,UK
+INV-100038,ELEC-002,Wireless Mouse,Electronics,Accessories,43,2024-01-31 00:00:00,28.85,CUST-0002,UK
+INV-100039,BOOK-001,Python Programming,Books,Technology,-3,2023-10-15 00:00:00,43.89,CUST-0038,Austria
+INV-100040,CLOTH-001,Cotton T-Shirt,Clothing,Tops,40,2024-01-09 00:00:00,18.69,CUST-0098,France
+INV-100041,HOME-002,Desk Lamp,Home & Garden,Lighting,6,2024-03-24 00:00:00,33.14,CUST-0039,Italy
+INV-100042,SPORT-002,Running Shoes,Sports,Footwear,22,2024-11-29 00:00:00,97.69,CUST-0029,Spain
+INV-100043,CLOTH-003,Winter Jacket,Clothing,Outerwear,8,2023-08-22 00:00:00,125.05,CUST-0092,Spain
+INV-100044,SPORT-001,Yoga Mat,Sports,Fitness,35,2024-02-09 00:00:00,22.94,CUST-0009,Switzerland
+INV-100045,BOOK-001,Python Programming,Books,Technology,6,2025-08-09 00:00:00,40.77,CUST-0047,Belgium
+INV-100046,SPORT-002,Running Shoes,Sports,Footwear,27,2025-06-14 00:00:00,84.52,CUST-0062,Portugal
+INV-100047,CLOTH-003,Winter Jacket,Clothing,Outerwear,38,2024-04-19 00:00:00,123.3,CUST-0012,Netherlands
+INV-100048,ELEC-002,Wireless Mouse,Electronics,Accessories,2,2024-01-20 00:00:00,31.04,CUST-0010,Italy
+INV-100049,ELEC-002,Wireless Mouse,Electronics,Accessories,28,2025-07-31 00:00:00,30.92,CUST-0071,Switzerland
+INV-100050,HOME-001,Coffee Maker,Home & Garden,Kitchen,27,2024-04-11 00:00:00,55.72,CUST-0075,Austria
+INV-100051,SPORT-001,Yoga Mat,Sports,Fitness,49,2023-11-05 00:00:00,25.47,CUST-0064,UK
+INV-100052,CLOTH-003,Winter Jacket,Clothing,Outerwear,13,2025-03-19 00:00:00,136.36,CUST-0046,Italy
+INV-100053,ELEC-001,"Laptop Pro 15""",Electronics,Computers,28,2024-08-15 00:00:00,827.93,CUST-0040,Switzerland
+INV-100054,SPORT-001,Yoga Mat,Sports,Fitness,2,2024-11-07 00:00:00,27.35,CUST-0007,Portugal
+INV-100055,CLOTH-002,Jeans Classic,Clothing,Bottoms,30,2024-10-13 00:00:00,53.88,CUST-0087,Netherlands
+INV-100056,ELEC-001,"Laptop Pro 15""",Electronics,Computers,16,2024-02-19 00:00:00,862.2,CUST-0007,Austria
+INV-100057,HOME-001,Coffee Maker,Home & Garden,Kitchen,24,2024-01-12 00:00:00,65.41,CUST-0095,Switzerland
+INV-100058,ELEC-001,"Laptop Pro 15""",Electronics,Computers,47,2025-07-22 00:00:00,926.16,CUST-0095,Portugal
+INV-100059,SPORT-001,Yoga Mat,Sports,Fitness,16,2024-04-14 00:00:00,26.12,CUST-0073,UK
+INV-100060,BOOK-001,Python Programming,Books,Technology,40,2024-02-11 00:00:00,42.21,CUST-0001,France
+INV-100061,HOME-002,Desk Lamp,Home & Garden,Lighting,-9,2024-11-03 00:00:00,32.29,CUST-0020,France
+INV-100062,SPORT-002,Running Shoes,Sports,Footwear,5,2023-09-26 00:00:00,96.19,CUST-0058,Netherlands
+INV-100063,HOME-002,Desk Lamp,Home & Garden,Lighting,49,2025-02-22 00:00:00,31.68,CUST-0052,France
+INV-100064,ELEC-003,USB-C Cable,Electronics,Accessories,25,2024-08-13 00:00:00,13.34,CUST-0059,Belgium
+INV-100065,ELEC-003,USB-C Cable,Electronics,Accessories,5,2024-03-18 00:00:00,13.63,CUST-0074,Portugal
+INV-100066,SPORT-001,Yoga Mat,Sports,Fitness,44,2025-07-06 00:00:00,26.73,CUST-0060,Spain
+INV-100067,ELEC-004,Bluetooth Speaker,Electronics,Audio,49,2024-06-04 00:00:00,85.68,CUST-0021,Belgium
+INV-100068,HOME-002,Desk Lamp,Home & Garden,Lighting,11,2025-02-20 00:00:00,33.04,CUST-0095,Italy
+INV-100069,CLOTH-003,Winter Jacket,Clothing,Outerwear,49,2024-09-16 00:00:00,126.07,CUST-0100,Spain
+INV-100070,ELEC-004,Bluetooth Speaker,Electronics,Audio,4,2025-08-02 00:00:00,80.46,CUST-0044,Spain
+INV-100071,HOME-001,Coffee Maker,Home & Garden,Kitchen,23,2024-06-28 00:00:00,61.27,CUST-0004,Belgium
+INV-100072,CLOTH-003,Winter Jacket,Clothing,Outerwear,2,2024-03-03 00:00:00,129.81,CUST-0027,Spain
+INV-100073,SPORT-002,Running Shoes,Sports,Footwear,27,2025-06-19 00:00:00,84.39,CUST-0001,France
+INV-100074,BOOK-001,Python Programming,Books,Technology,20,2023-12-21 00:00:00,36.55,CUST-0013,UK
+INV-100075,ELEC-001,"Laptop Pro 15""",Electronics,Computers,43,2025-04-12 00:00:00,825.65,CUST-0050,France
+INV-100076,ELEC-001,"Laptop Pro 15""",Electronics,Computers,15,2025-03-16 00:00:00,931.2,CUST-0065,Italy
+INV-100077,ELEC-003,USB-C Cable,Electronics,Accessories,20,2024-11-19 00:00:00,13.16,CUST-0069,Austria
+INV-100078,CLOTH-003,Winter Jacket,Clothing,Outerwear,20,2024-08-23 00:00:00,129.1,CUST-0055,Austria
+INV-100079,ELEC-003,USB-C Cable,Electronics,Accessories,5,2024-10-18 00:00:00,14.24,CUST-0062,Spain
+INV-100080,ELEC-002,Wireless Mouse,Electronics,Accessories,25,2023-11-18 00:00:00,32.42,CUST-0031,Switzerland
+INV-100081,ELEC-004,Bluetooth Speaker,Electronics,Audio,43,2025-01-24 00:00:00,83.35,CUST-0077,Austria
+INV-100082,ELEC-002,Wireless Mouse,Electronics,Accessories,11,2025-07-23 00:00:00,28.12,CUST-0092,Austria
+INV-100083,ELEC-004,Bluetooth Speaker,Electronics,Audio,34,2024-07-14 00:00:00,76.59,CUST-0077,Belgium
+INV-100084,CLOTH-002,Jeans Classic,Clothing,Bottoms,9,2025-03-27 00:00:00,52.77,CUST-0021,Belgium
+INV-100085,CLOTH-003,Winter Jacket,Clothing,Outerwear,25,2024-06-27 00:00:00,132.96,CUST-0072,France
+INV-100086,ELEC-001,"Laptop Pro 15""",Electronics,Computers,3,2025-04-27 00:00:00,826.18,CUST-0070,Netherlands
+INV-100087,BOOK-001,Python Programming,Books,Technology,12,2025-07-30 00:00:00,36.98,CUST-0097,Portugal
+INV-100088,CLOTH-001,Cotton T-Shirt,Clothing,Tops,45,2024-09-01 00:00:00,18.21,CUST-0063,Germany
+INV-100089,SPORT-002,Running Shoes,Sports,Footwear,3,2025-08-05 00:00:00,92.39,CUST-0039,Switzerland
+INV-100090,ELEC-003,USB-C Cable,Electronics,Accessories,2,2023-11-10 00:00:00,14.03,CUST-0073,Belgium
+INV-100091,CLOTH-003,Winter Jacket,Clothing,Outerwear,7,2024-12-31 00:00:00,119.46,CUST-0091,Portugal
+INV-100092,CLOTH-003,Winter Jacket,Clothing,Outerwear,10,2024-01-21 00:00:00,133.92,CUST-0028,Switzerland
+INV-100093,SPORT-001,Yoga Mat,Sports,Fitness,23,2025-05-12 00:00:00,27.47,CUST-0050,France
+INV-100094,ELEC-004,Bluetooth Speaker,Electronics,Audio,26,2025-02-06 00:00:00,82.32,CUST-0096,Spain
+INV-100095,BOOK-001,Python Programming,Books,Technology,44,2024-08-15 00:00:00,40.64,CUST-0084,France
+INV-100096,ELEC-001,"Laptop Pro 15""",Electronics,Computers,3,2024-06-03 00:00:00,827.08,CUST-0015,Spain
+INV-100097,ELEC-002,Wireless Mouse,Electronics,Accessories,39,2023-11-04 00:00:00,30.68,CUST-0035,Spain
+INV-100098,CLOTH-002,Jeans Classic,Clothing,Bottoms,26,2025-02-06 00:00:00,53.11,CUST-0004,Spain
+INV-100099,CLOTH-002,Jeans Classic,Clothing,Bottoms,20,2023-10-10 00:00:00,46.03,CUST-0003,Italy
+INV-100100,BOOK-001,Python Programming,Books,Technology,48,2025-04-16 00:00:00,39.15,CUST-0050,Switzerland
+INV-100101,HOME-001,Coffee Maker,Home & Garden,Kitchen,34,2024-06-12 00:00:00,58.19,CUST-0083,France
+INV-100102,ELEC-002,Wireless Mouse,Electronics,Accessories,37,2023-12-09 00:00:00,28.22,CUST-0031,Switzerland
+INV-100103,ELEC-001,"Laptop Pro 15""",Electronics,Computers,34,2024-11-06 00:00:00,852.53,CUST-0058,Germany
+INV-100104,ELEC-001,"Laptop Pro 15""",Electronics,Computers,36,2025-06-30 00:00:00,862.23,CUST-0042,Germany
+INV-100105,SPORT-001,Yoga Mat,Sports,Fitness,10,2024-06-13 00:00:00,23.22,CUST-0019,Spain
+INV-100106,HOME-001,Coffee Maker,Home & Garden,Kitchen,20,2025-08-03 00:00:00,56.16,CUST-0093,Portugal
+INV-100107,CLOTH-002,Jeans Classic,Clothing,Bottoms,6,2024-10-25 00:00:00,54.43,CUST-0044,Belgium
+INV-100108,SPORT-001,Yoga Mat,Sports,Fitness,35,2025-01-08 00:00:00,24.8,CUST-0039,Germany
+INV-100109,CLOTH-003,Winter Jacket,Clothing,Outerwear,32,2024-07-03 00:00:00,133.78,CUST-0021,UK
+INV-100110,CLOTH-003,Winter Jacket,Clothing,Outerwear,37,2023-09-16 00:00:00,130.08,CUST-0073,Spain
+INV-100111,SPORT-001,Yoga Mat,Sports,Fitness,38,2025-01-10 00:00:00,23.41,CUST-0092,Germany
+INV-100112,ELEC-003,USB-C Cable,Electronics,Accessories,16,2023-11-02 00:00:00,13.24,CUST-0072,Netherlands
+INV-100113,ELEC-002,Wireless Mouse,Electronics,Accessories,28,2023-12-05 00:00:00,27.09,CUST-0005,Belgium
+INV-100114,ELEC-002,Wireless Mouse,Electronics,Accessories,17,2024-12-24 00:00:00,32.09,CUST-0075,Italy
+INV-100115,CLOTH-003,Winter Jacket,Clothing,Outerwear,38,2024-11-06 00:00:00,139.23,CUST-0013,Portugal
+INV-100116,ELEC-004,Bluetooth Speaker,Electronics,Audio,-7,2023-09-05 00:00:00,87.38,CUST-0063,Netherlands
+INV-100117,ELEC-003,USB-C Cable,Electronics,Accessories,8,2024-12-01 00:00:00,11.79,CUST-0011,France
+INV-100118,CLOTH-003,Winter Jacket,Clothing,Outerwear,13,2024-12-05 00:00:00,137.99,CUST-0029,UK
+INV-100119,CLOTH-002,Jeans Classic,Clothing,Bottoms,13,2024-10-02 00:00:00,49.56,CUST-0095,Switzerland
+INV-100120,ELEC-001,"Laptop Pro 15""",Electronics,Computers,35,2025-06-17 00:00:00,948.81,CUST-0035,Italy
+INV-100121,ELEC-003,USB-C Cable,Electronics,Accessories,40,2024-12-13 00:00:00,11.73,CUST-0030,Germany
+INV-100122,ELEC-003,USB-C Cable,Electronics,Accessories,37,2024-02-13 00:00:00,13.81,CUST-0032,UK
+INV-100123,HOME-001,Coffee Maker,Home & Garden,Kitchen,50,2023-12-07 00:00:00,57.47,CUST-0015,Switzerland
+INV-100124,SPORT-002,Running Shoes,Sports,Footwear,44,2025-03-15 00:00:00,96.16,CUST-0094,Netherlands
+INV-100125,SPORT-001,Yoga Mat,Sports,Fitness,35,2023-10-12 00:00:00,23.97,CUST-0015,Portugal
+INV-100126,ELEC-004,Bluetooth Speaker,Electronics,Audio,20,2025-04-06 00:00:00,83.03,CUST-0033,France
+INV-100127,ELEC-001,"Laptop Pro 15""",Electronics,Computers,38,2024-12-23 00:00:00,825.11,CUST-0047,Belgium
+INV-100128,SPORT-002,Running Shoes,Sports,Footwear,45,2025-02-22 00:00:00,89.09,CUST-0022,Switzerland
+INV-100129,ELEC-001,"Laptop Pro 15""",Electronics,Computers,29,2024-06-22 00:00:00,923.6,CUST-0034,Austria
+INV-100130,SPORT-002,Running Shoes,Sports,Footwear,39,2023-11-24 00:00:00,94.11,CUST-0066,Switzerland
+INV-100131,HOME-001,Coffee Maker,Home & Garden,Kitchen,15,2023-08-30 00:00:00,57.66,CUST-0051,Switzerland
+INV-100132,HOME-001,Coffee Maker,Home & Garden,Kitchen,7,2023-10-21 00:00:00,59.54,CUST-0095,Netherlands
+INV-100133,CLOTH-003,Winter Jacket,Clothing,Outerwear,13,2024-03-24 00:00:00,120.66,CUST-0010,Italy
+INV-100134,ELEC-002,Wireless Mouse,Electronics,Accessories,49,2024-08-28 00:00:00,31.98,CUST-0098,Switzerland
+INV-100135,SPORT-001,Yoga Mat,Sports,Fitness,3,2025-01-11 00:00:00,22.9,CUST-0025,Portugal
+INV-100136,CLOTH-001,Cotton T-Shirt,Clothing,Tops,19,2024-07-25 00:00:00,20.12,CUST-0090,UK
+INV-100137,SPORT-001,Yoga Mat,Sports,Fitness,19,2023-12-25 00:00:00,24.66,CUST-0044,Spain
+INV-100138,HOME-001,Coffee Maker,Home & Garden,Kitchen,25,2025-04-25 00:00:00,60.49,CUST-0044,France
+INV-100139,BOOK-001,Python Programming,Books,Technology,21,2024-01-10 00:00:00,41.49,CUST-0022,France
+INV-100140,CLOTH-003,Winter Jacket,Clothing,Outerwear,9,2024-11-05 00:00:00,117.79,CUST-0092,UK
+INV-100141,SPORT-001,Yoga Mat,Sports,Fitness,20,2024-10-07 00:00:00,23.36,CUST-0031,Italy
+INV-100142,ELEC-002,Wireless Mouse,Electronics,Accessories,23,2025-02-14 00:00:00,30.01,CUST-0059,Austria
+INV-100143,ELEC-003,USB-C Cable,Electronics,Accessories,30,2023-10-29 00:00:00,12.14,CUST-0098,Belgium
+INV-100144,HOME-002,Desk Lamp,Home & Garden,Lighting,43,2024-03-26 00:00:00,35.44,CUST-0096,Belgium
+INV-100145,BOOK-001,Python Programming,Books,Technology,33,2024-05-03 00:00:00,41.77,CUST-0084,Germany
+INV-100146,ELEC-002,Wireless Mouse,Electronics,Accessories,37,2024-08-08 00:00:00,27.11,CUST-0047,Italy
+INV-100147,BOOK-001,Python Programming,Books,Technology,15,2023-10-15 00:00:00,41.84,CUST-0072,Germany
+INV-100148,CLOTH-002,Jeans Classic,Clothing,Bottoms,33,2025-04-17 00:00:00,46.06,CUST-0021,Germany
+INV-100149,ELEC-002,Wireless Mouse,Electronics,Accessories,27,2024-02-02 00:00:00,30.37,CUST-0010,Italy
+INV-100150,CLOTH-001,Cotton T-Shirt,Clothing,Tops,26,2024-04-27 00:00:00,21.51,CUST-0067,Italy
+INV-100151,CLOTH-002,Jeans Classic,Clothing,Bottoms,48,2025-04-11 00:00:00,49.67,CUST-0042,Netherlands
+INV-100152,ELEC-004,Bluetooth Speaker,Electronics,Audio,49,2024-12-23 00:00:00,82.48,CUST-0016,Portugal
+INV-100153,CLOTH-002,Jeans Classic,Clothing,Bottoms,25,2023-08-22 00:00:00,54.62,CUST-0066,Italy
+INV-100154,SPORT-002,Running Shoes,Sports,Footwear,5,2025-05-27 00:00:00,81.19,CUST-0074,Switzerland
+INV-100155,BOOK-001,Python Programming,Books,Technology,33,2023-11-24 00:00:00,40.45,CUST-0006,France
+INV-100156,CLOTH-002,Jeans Classic,Clothing,Bottoms,20,2023-10-05 00:00:00,49.18,CUST-0012,Switzerland
+INV-100157,CLOTH-002,Jeans Classic,Clothing,Bottoms,32,2025-08-08 00:00:00,51.01,CUST-0018,Portugal
+INV-100158,ELEC-001,"Laptop Pro 15""",Electronics,Computers,43,2025-04-02 00:00:00,826.29,CUST-0077,Italy
+INV-100159,ELEC-003,USB-C Cable,Electronics,Accessories,23,2024-01-04 00:00:00,13.17,CUST-0056,France
+INV-100160,CLOTH-003,Winter Jacket,Clothing,Outerwear,12,2024-01-27 00:00:00,141.83,CUST-0020,Austria
+INV-100161,ELEC-003,USB-C Cable,Electronics,Accessories,20,2024-08-15 00:00:00,14.25,CUST-0067,Netherlands
+INV-100162,CLOTH-001,Cotton T-Shirt,Clothing,Tops,31,2025-03-22 00:00:00,19.96,CUST-0007,UK
+INV-100163,CLOTH-002,Jeans Classic,Clothing,Bottoms,18,2025-05-04 00:00:00,49.13,CUST-0003,Portugal
+INV-100164,ELEC-003,USB-C Cable,Electronics,Accessories,2,2024-12-28 00:00:00,12.02,CUST-0004,Netherlands
+INV-100165,ELEC-003,USB-C Cable,Electronics,Accessories,11,2024-12-29 00:00:00,12.96,CUST-0094,Switzerland
+INV-100166,SPORT-002,Running Shoes,Sports,Footwear,20,2025-07-04 00:00:00,92.6,CUST-0029,UK
+INV-100167,ELEC-002,Wireless Mouse,Electronics,Accessories,41,2024-01-26 00:00:00,30.22,CUST-0089,Belgium
+INV-100168,ELEC-004,Bluetooth Speaker,Electronics,Audio,11,2024-05-26 00:00:00,76.88,CUST-0013,Italy
+INV-100169,ELEC-001,"Laptop Pro 15""",Electronics,Computers,36,2024-02-06 00:00:00,816.79,CUST-0001,Austria
+INV-100170,CLOTH-002,Jeans Classic,Clothing,Bottoms,29,2024-10-25 00:00:00,54.04,CUST-0031,Portugal
+INV-100171,HOME-002,Desk Lamp,Home & Garden,Lighting,49,2025-02-24 00:00:00,36.63,CUST-0018,France
+INV-100172,CLOTH-001,Cotton T-Shirt,Clothing,Tops,18,2025-04-13 00:00:00,18.98,CUST-0053,Italy
+INV-100173,BOOK-001,Python Programming,Books,Technology,7,2024-10-17 00:00:00,38.88,CUST-0066,Netherlands
+INV-100174,CLOTH-001,Cotton T-Shirt,Clothing,Tops,34,2025-02-14 00:00:00,18.77,CUST-0002,Belgium
+INV-100175,CLOTH-001,Cotton T-Shirt,Clothing,Tops,37,2024-06-16 00:00:00,18.51,CUST-0031,Portugal
+INV-100176,BOOK-001,Python Programming,Books,Technology,20,2025-07-11 00:00:00,42.39,CUST-0021,Belgium
+INV-100177,ELEC-001,"Laptop Pro 15""",Electronics,Computers,5,2024-09-11 00:00:00,980.93,CUST-0031,Belgium
+INV-100178,CLOTH-002,Jeans Classic,Clothing,Bottoms,38,2024-04-08 00:00:00,54.38,CUST-0079,Switzerland
+INV-100179,ELEC-004,Bluetooth Speaker,Electronics,Audio,28,2024-05-31 00:00:00,76.92,CUST-0071,Italy
+INV-100180,SPORT-001,Yoga Mat,Sports,Fitness,26,2025-04-16 00:00:00,24.92,CUST-0029,Switzerland
+INV-100181,SPORT-001,Yoga Mat,Sports,Fitness,42,2023-09-19 00:00:00,26.7,CUST-0079,Belgium
+INV-100182,HOME-002,Desk Lamp,Home & Garden,Lighting,31,2024-03-19 00:00:00,37.9,CUST-0069,Netherlands
+INV-100183,ELEC-002,Wireless Mouse,Electronics,Accessories,22,2024-02-13 00:00:00,27.76,CUST-0030,France
+INV-100184,SPORT-002,Running Shoes,Sports,Footwear,29,2024-07-08 00:00:00,92.45,CUST-0082,Switzerland
+INV-100185,HOME-001,Coffee Maker,Home & Garden,Kitchen,47,2025-02-19 00:00:00,56.91,CUST-0047,UK
+INV-100186,BOOK-001,Python Programming,Books,Technology,3,2024-06-24 00:00:00,40.63,CUST-0084,France
+INV-100187,ELEC-002,Wireless Mouse,Electronics,Accessories,43,2023-11-13 00:00:00,27.59,CUST-0040,Belgium
+INV-100188,ELEC-002,Wireless Mouse,Electronics,Accessories,42,2025-06-04 00:00:00,31.38,CUST-0010,Switzerland
+INV-100189,ELEC-002,Wireless Mouse,Electronics,Accessories,42,2024-02-17 00:00:00,30.99,CUST-0004,Spain
+INV-100190,ELEC-003,USB-C Cable,Electronics,Accessories,23,2024-04-19 00:00:00,13.11,CUST-0009,Germany
+INV-100191,ELEC-003,USB-C Cable,Electronics,Accessories,13,2025-01-01 00:00:00,14.23,CUST-0063,Belgium
+INV-100192,CLOTH-002,Jeans Classic,Clothing,Bottoms,26,2025-05-21 00:00:00,50.07,CUST-0079,Netherlands
+INV-100193,CLOTH-003,Winter Jacket,Clothing,Outerwear,1,2025-01-06 00:00:00,131.36,CUST-0066,UK
+INV-100194,HOME-001,Coffee Maker,Home & Garden,Kitchen,33,2024-10-10 00:00:00,58.45,CUST-0098,Netherlands
+INV-100195,ELEC-003,USB-C Cable,Electronics,Accessories,9,2023-10-16 00:00:00,12.96,CUST-0049,Portugal
+INV-100196,BOOK-001,Python Programming,Books,Technology,27,2024-04-08 00:00:00,42.76,CUST-0079,Netherlands
+INV-100197,CLOTH-001,Cotton T-Shirt,Clothing,Tops,42,2023-09-17 00:00:00,18.49,CUST-0003,Portugal
+INV-100198,CLOTH-002,Jeans Classic,Clothing,Bottoms,30,2024-03-14 00:00:00,51.46,CUST-0099,Italy
+INV-100199,HOME-001,Coffee Maker,Home & Garden,Kitchen,8,2025-08-09 00:00:00,57.61,CUST-0038,Switzerland
+INV-100200,SPORT-002,Running Shoes,Sports,Footwear,32,2023-12-02 00:00:00,96.34,CUST-0081,Germany
+INV-100201,BOOK-001,Python Programming,Books,Technology,50,2023-08-16 00:00:00,41.52,CUST-0057,Netherlands
+INV-100202,CLOTH-002,Jeans Classic,Clothing,Bottoms,11,2024-03-04 00:00:00,53.42,CUST-0047,Germany
+INV-100203,ELEC-002,Wireless Mouse,Electronics,Accessories,18,2024-01-24 00:00:00,29.0,CUST-0089,Austria
+INV-100204,BOOK-001,Python Programming,Books,Technology,18,2024-07-05 00:00:00,41.69,CUST-0004,Portugal
+INV-100205,SPORT-002,Running Shoes,Sports,Footwear,17,2023-08-28 00:00:00,91.03,CUST-0059,UK
+INV-100206,ELEC-001,"Laptop Pro 15""",Electronics,Computers,39,2025-07-23 00:00:00,831.93,CUST-0012,Belgium
+INV-100207,CLOTH-001,Cotton T-Shirt,Clothing,Tops,6,2024-03-11 00:00:00,20.38,CUST-0004,Italy
+INV-100208,CLOTH-003,Winter Jacket,Clothing,Outerwear,22,2025-03-21 00:00:00,126.35,CUST-0040,Austria
+INV-100209,HOME-002,Desk Lamp,Home & Garden,Lighting,3,2024-03-08 00:00:00,33.29,CUST-0082,UK
+INV-100210,SPORT-001,Yoga Mat,Sports,Fitness,20,2024-03-20 00:00:00,24.33,CUST-0089,Portugal
+INV-100211,ELEC-001,"Laptop Pro 15""",Electronics,Computers,42,2025-05-27 00:00:00,949.13,CUST-0079,Spain
+INV-100212,ELEC-003,USB-C Cable,Electronics,Accessories,3,2024-10-24 00:00:00,14.03,CUST-0080,UK
+INV-100213,ELEC-002,Wireless Mouse,Electronics,Accessories,16,2025-06-12 00:00:00,29.62,CUST-0014,Switzerland
+INV-100214,ELEC-002,Wireless Mouse,Electronics,Accessories,9,2024-08-29 00:00:00,29.47,CUST-0014,Switzerland
+INV-100215,HOME-001,Coffee Maker,Home & Garden,Kitchen,42,2024-11-18 00:00:00,54.99,CUST-0028,Belgium
+INV-100216,ELEC-001,"Laptop Pro 15""",Electronics,Computers,25,2025-04-10 00:00:00,867.42,CUST-0084,Switzerland
+INV-100217,SPORT-002,Running Shoes,Sports,Footwear,22,2023-11-10 00:00:00,83.39,CUST-0006,Belgium
+INV-100218,SPORT-001,Yoga Mat,Sports,Fitness,2,2024-10-04 00:00:00,22.82,CUST-0047,Switzerland
+INV-100219,SPORT-001,Yoga Mat,Sports,Fitness,41,2023-09-15 00:00:00,23.21,CUST-0082,Spain
+INV-100220,HOME-002,Desk Lamp,Home & Garden,Lighting,10,2024-04-18 00:00:00,34.64,CUST-0077,UK
+INV-100221,ELEC-003,USB-C Cable,Electronics,Accessories,34,2023-12-16 00:00:00,13.09,CUST-0091,Germany
+INV-100222,SPORT-001,Yoga Mat,Sports,Fitness,37,2024-12-31 00:00:00,22.96,CUST-0033,UK
+INV-100223,CLOTH-001,Cotton T-Shirt,Clothing,Tops,4,2025-06-13 00:00:00,18.98,CUST-0009,France
+INV-100224,HOME-001,Coffee Maker,Home & Garden,Kitchen,45,2023-08-28 00:00:00,54.96,CUST-0021,Switzerland
+INV-100225,HOME-001,Coffee Maker,Home & Garden,Kitchen,10,2024-05-03 00:00:00,58.42,CUST-0069,Germany
+INV-100226,CLOTH-002,Jeans Classic,Clothing,Bottoms,18,2023-11-24 00:00:00,45.67,CUST-0040,Italy
+INV-100227,ELEC-002,Wireless Mouse,Electronics,Accessories,7,2025-03-31 00:00:00,31.72,CUST-0009,Germany
+INV-100228,BOOK-001,Python Programming,Books,Technology,17,2024-09-20 00:00:00,43.46,CUST-0100,Belgium
+INV-100229,CLOTH-003,Winter Jacket,Clothing,Outerwear,25,2024-08-26 00:00:00,140.06,CUST-0064,Portugal
+INV-100230,ELEC-002,Wireless Mouse,Electronics,Accessories,3,2025-04-24 00:00:00,29.28,CUST-0084,Austria
+INV-100231,CLOTH-003,Winter Jacket,Clothing,Outerwear,42,2025-04-07 00:00:00,136.94,CUST-0011,Austria
+INV-100232,ELEC-004,Bluetooth Speaker,Electronics,Audio,3,2023-11-09 00:00:00,87.55,CUST-0091,Germany
+INV-100233,HOME-002,Desk Lamp,Home & Garden,Lighting,42,2024-10-15 00:00:00,34.07,CUST-0072,UK
+INV-100234,ELEC-001,"Laptop Pro 15""",Electronics,Computers,45,2024-04-27 00:00:00,892.44,CUST-0082,France
+INV-100235,ELEC-001,"Laptop Pro 15""",Electronics,Computers,45,2024-05-22 00:00:00,988.99,CUST-0056,Italy
+INV-100236,BOOK-001,Python Programming,Books,Technology,22,2025-06-06 00:00:00,38.42,CUST-0075,Portugal
+INV-100237,CLOTH-002,Jeans Classic,Clothing,Bottoms,33,2024-11-02 00:00:00,48.54,CUST-0017,Austria
+INV-100238,ELEC-003,USB-C Cable,Electronics,Accessories,14,2025-03-27 00:00:00,12.53,CUST-0052,Portugal
+INV-100239,SPORT-002,Running Shoes,Sports,Footwear,13,2024-05-29 00:00:00,91.38,CUST-0064,Netherlands
+INV-100240,ELEC-001,"Laptop Pro 15""",Electronics,Computers,19,2024-01-07 00:00:00,820.31,CUST-0034,France
+INV-100241,CLOTH-002,Jeans Classic,Clothing,Bottoms,8,2024-03-16 00:00:00,45.15,CUST-0031,Netherlands
+INV-100242,CLOTH-001,Cotton T-Shirt,Clothing,Tops,11,2023-10-06 00:00:00,19.15,CUST-0077,Netherlands
+INV-100243,HOME-002,Desk Lamp,Home & Garden,Lighting,8,2023-10-15 00:00:00,37.42,CUST-0025,Switzerland
+INV-100244,HOME-001,Coffee Maker,Home & Garden,Kitchen,33,2025-03-05 00:00:00,60.64,CUST-0067,Belgium
+INV-100245,SPORT-001,Yoga Mat,Sports,Fitness,28,2024-08-24 00:00:00,27.48,CUST-0063,Germany
+INV-100246,ELEC-001,"Laptop Pro 15""",Electronics,Computers,42,2024-12-02 00:00:00,856.33,CUST-0047,Switzerland
+INV-100247,CLOTH-001,Cotton T-Shirt,Clothing,Tops,15,2023-09-06 00:00:00,20.34,CUST-0054,Germany
+INV-100248,BOOK-001,Python Programming,Books,Technology,16,2023-12-08 00:00:00,39.0,CUST-0094,Switzerland
+INV-100249,ELEC-001,"Laptop Pro 15""",Electronics,Computers,2,2024-04-06 00:00:00,905.51,CUST-0016,Portugal
+INV-100250,HOME-002,Desk Lamp,Home & Garden,Lighting,41,2024-09-23 00:00:00,33.02,CUST-0065,Italy
+INV-100251,SPORT-001,Yoga Mat,Sports,Fitness,24,2023-12-13 00:00:00,27.41,CUST-0040,Switzerland
+INV-100252,SPORT-001,Yoga Mat,Sports,Fitness,49,2024-03-18 00:00:00,24.14,CUST-0078,Netherlands
+INV-100253,HOME-001,Coffee Maker,Home & Garden,Kitchen,34,2025-06-26 00:00:00,63.62,CUST-0080,France
+INV-100254,ELEC-001,"Laptop Pro 15""",Electronics,Computers,50,2024-12-21 00:00:00,936.75,CUST-0017,Netherlands
+INV-100255,SPORT-001,Yoga Mat,Sports,Fitness,9,2024-03-10 00:00:00,25.32,CUST-0091,Netherlands
+INV-100256,ELEC-002,Wireless Mouse,Electronics,Accessories,7,2024-02-11 00:00:00,29.33,CUST-0036,Germany
+INV-100257,SPORT-001,Yoga Mat,Sports,Fitness,42,2025-06-11 00:00:00,25.03,CUST-0077,Germany
+INV-100258,ELEC-003,USB-C Cable,Electronics,Accessories,19,2025-05-24 00:00:00,13.9,CUST-0049,Italy
+INV-100259,SPORT-001,Yoga Mat,Sports,Fitness,23,2025-07-29 00:00:00,26.3,CUST-0037,Germany
+INV-100260,CLOTH-001,Cotton T-Shirt,Clothing,Tops,23,2025-07-22 00:00:00,21.53,CUST-0023,Austria
+INV-100261,ELEC-004,Bluetooth Speaker,Electronics,Audio,9,2024-07-25 00:00:00,74.3,CUST-0047,Austria
+INV-100262,HOME-002,Desk Lamp,Home & Garden,Lighting,19,2024-02-17 00:00:00,33.25,CUST-0061,France
+INV-100263,ELEC-001,"Laptop Pro 15""",Electronics,Computers,24,2025-03-18 00:00:00,917.01,CUST-0034,Spain
+INV-100264,HOME-002,Desk Lamp,Home & Garden,Lighting,35,2023-09-02 00:00:00,34.29,CUST-0051,Portugal
+INV-100265,BOOK-001,Python Programming,Books,Technology,44,2023-11-26 00:00:00,39.37,CUST-0085,Netherlands
+INV-100266,CLOTH-001,Cotton T-Shirt,Clothing,Tops,41,2025-02-12 00:00:00,18.6,CUST-0033,Germany
+INV-100267,SPORT-001,Yoga Mat,Sports,Fitness,6,2024-07-17 00:00:00,25.04,CUST-0051,Netherlands
+INV-100268,BOOK-001,Python Programming,Books,Technology,46,2023-10-31 00:00:00,36.75,CUST-0009,Germany
+INV-100269,BOOK-001,Python Programming,Books,Technology,7,2025-07-23 00:00:00,42.56,CUST-0098,Netherlands
+INV-100270,ELEC-002,Wireless Mouse,Electronics,Accessories,48,2023-09-23 00:00:00,30.94,CUST-0035,Spain
+INV-100271,SPORT-001,Yoga Mat,Sports,Fitness,26,2025-05-24 00:00:00,25.25,CUST-0099,France
+INV-100272,CLOTH-003,Winter Jacket,Clothing,Outerwear,42,2023-10-22 00:00:00,140.26,CUST-0080,Belgium
+INV-100273,ELEC-001,"Laptop Pro 15""",Electronics,Computers,24,2024-07-24 00:00:00,810.75,CUST-0033,Switzerland
+INV-100274,HOME-002,Desk Lamp,Home & Garden,Lighting,30,2024-05-02 00:00:00,36.9,CUST-0094,Netherlands
+INV-100275,SPORT-001,Yoga Mat,Sports,Fitness,48,2025-02-03 00:00:00,25.66,CUST-0028,Belgium
+INV-100276,CLOTH-003,Winter Jacket,Clothing,Outerwear,25,2025-05-27 00:00:00,117.53,CUST-0019,Italy
+INV-100277,ELEC-002,Wireless Mouse,Electronics,Accessories,6,2024-10-01 00:00:00,32.15,CUST-0056,Austria
+INV-100278,ELEC-003,USB-C Cable,Electronics,Accessories,19,2025-05-14 00:00:00,13.56,CUST-0090,Austria
+INV-100279,ELEC-004,Bluetooth Speaker,Electronics,Audio,23,2024-02-17 00:00:00,73.76,CUST-0021,Spain
+INV-100280,BOOK-001,Python Programming,Books,Technology,21,2024-01-02 00:00:00,40.02,CUST-0004,Spain
+INV-100281,HOME-001,Coffee Maker,Home & Garden,Kitchen,31,2024-10-04 00:00:00,55.38,CUST-0099,France
+INV-100282,CLOTH-003,Winter Jacket,Clothing,Outerwear,20,2024-06-30 00:00:00,127.41,CUST-0079,Spain
+INV-100283,BOOK-001,Python Programming,Books,Technology,38,2025-02-20 00:00:00,41.04,CUST-0071,Austria
+INV-100284,CLOTH-003,Winter Jacket,Clothing,Outerwear,15,2024-09-01 00:00:00,123.82,CUST-0044,Italy
+INV-100285,CLOTH-001,Cotton T-Shirt,Clothing,Tops,24,2024-10-17 00:00:00,21.1,CUST-0072,Austria
+INV-100286,HOME-001,Coffee Maker,Home & Garden,Kitchen,3,2025-06-03 00:00:00,57.21,CUST-0067,Switzerland
+INV-100287,HOME-001,Coffee Maker,Home & Garden,Kitchen,27,2024-12-06 00:00:00,62.28,CUST-0060,Italy
+INV-100288,SPORT-002,Running Shoes,Sports,Footwear,1,2025-05-26 00:00:00,93.68,CUST-0040,Netherlands
+INV-100289,SPORT-001,Yoga Mat,Sports,Fitness,25,2025-07-31 00:00:00,23.09,CUST-0027,Austria
+INV-100290,ELEC-004,Bluetooth Speaker,Electronics,Audio,28,2023-09-20 00:00:00,74.58,CUST-0020,Netherlands
+INV-100291,ELEC-001,"Laptop Pro 15""",Electronics,Computers,15,2024-09-06 00:00:00,944.03,CUST-0085,Belgium
+INV-100292,ELEC-004,Bluetooth Speaker,Electronics,Audio,12,2024-09-04 00:00:00,81.14,CUST-0093,Italy
+INV-100293,HOME-001,Coffee Maker,Home & Garden,Kitchen,30,2024-08-18 00:00:00,59.17,CUST-0069,Belgium
+INV-100294,ELEC-003,USB-C Cable,Electronics,Accessories,9,2025-01-13 00:00:00,12.44,CUST-0086,Belgium
+INV-100295,ELEC-002,Wireless Mouse,Electronics,Accessories,27,2025-02-12 00:00:00,28.41,CUST-0058,Switzerland
+INV-100296,CLOTH-002,Jeans Classic,Clothing,Bottoms,38,2025-02-27 00:00:00,51.07,CUST-0036,France
+INV-100297,HOME-001,Coffee Maker,Home & Garden,Kitchen,50,2025-06-08 00:00:00,59.58,CUST-0040,Italy
+INV-100298,ELEC-002,Wireless Mouse,Electronics,Accessories,13,2024-01-18 00:00:00,31.37,CUST-0043,Netherlands
+INV-100299,ELEC-002,Wireless Mouse,Electronics,Accessories,14,2024-11-30 00:00:00,27.4,CUST-0018,Italy
+INV-100300,CLOTH-003,Winter Jacket,Clothing,Outerwear,2,2025-04-16 00:00:00,119.15,CUST-0026,Belgium
+INV-100301,HOME-001,Coffee Maker,Home & Garden,Kitchen,9,2025-02-02 00:00:00,59.59,CUST-0057,Switzerland
+INV-100302,ELEC-003,USB-C Cable,Electronics,Accessories,25,2024-10-21 00:00:00,12.63,CUST-0045,Germany
+INV-100303,HOME-001,Coffee Maker,Home & Garden,Kitchen,17,2024-09-24 00:00:00,55.58,CUST-0083,Italy
+INV-100304,CLOTH-003,Winter Jacket,Clothing,Outerwear,33,2025-08-01 00:00:00,121.97,CUST-0053,Belgium
+INV-100305,SPORT-001,Yoga Mat,Sports,Fitness,18,2024-03-22 00:00:00,25.34,CUST-0050,Italy
+INV-100306,ELEC-004,Bluetooth Speaker,Electronics,Audio,38,2024-04-06 00:00:00,74.42,CUST-0025,Italy
+INV-100307,CLOTH-002,Jeans Classic,Clothing,Bottoms,45,2025-04-06 00:00:00,53.38,CUST-0086,UK
+INV-100308,SPORT-002,Running Shoes,Sports,Footwear,24,2025-01-20 00:00:00,92.54,CUST-0098,Germany
+INV-100309,ELEC-002,Wireless Mouse,Electronics,Accessories,36,2023-08-19 00:00:00,32.75,CUST-0032,Germany
+INV-100310,ELEC-004,Bluetooth Speaker,Electronics,Audio,19,2023-09-21 00:00:00,87.07,CUST-0084,UK
+INV-100311,HOME-001,Coffee Maker,Home & Garden,Kitchen,18,2025-07-24 00:00:00,56.94,CUST-0054,France
+INV-100312,SPORT-002,Running Shoes,Sports,Footwear,44,2024-07-17 00:00:00,95.44,CUST-0092,Belgium
+INV-100313,CLOTH-001,Cotton T-Shirt,Clothing,Tops,11,2024-03-27 00:00:00,21.75,CUST-0071,France
+INV-100314,CLOTH-001,Cotton T-Shirt,Clothing,Tops,19,2024-12-03 00:00:00,19.76,CUST-0080,Netherlands
+INV-100315,BOOK-001,Python Programming,Books,Technology,21,2024-10-26 00:00:00,41.54,CUST-0067,Italy
+INV-100316,ELEC-004,Bluetooth Speaker,Electronics,Audio,13,2024-04-25 00:00:00,81.99,CUST-0059,Italy
+INV-100317,SPORT-001,Yoga Mat,Sports,Fitness,28,2023-09-18 00:00:00,24.09,CUST-0079,Switzerland
+INV-100318,HOME-002,Desk Lamp,Home & Garden,Lighting,17,2024-06-19 00:00:00,37.39,CUST-0003,Austria
+INV-100319,BOOK-001,Python Programming,Books,Technology,1,2023-11-13 00:00:00,36.17,CUST-0054,France
+INV-100320,CLOTH-003,Winter Jacket,Clothing,Outerwear,44,2023-08-16 00:00:00,136.28,CUST-0058,Austria
+INV-100321,ELEC-001,"Laptop Pro 15""",Electronics,Computers,30,2025-01-30 00:00:00,978.06,CUST-0009,Italy
+INV-100322,CLOTH-003,Winter Jacket,Clothing,Outerwear,35,2025-04-13 00:00:00,125.5,CUST-0004,Portugal
+INV-100323,CLOTH-002,Jeans Classic,Clothing,Bottoms,50,2025-06-30 00:00:00,45.61,CUST-0045,Switzerland
+INV-100324,ELEC-004,Bluetooth Speaker,Electronics,Audio,41,2024-02-28 00:00:00,76.86,CUST-0076,Portugal
+INV-100325,HOME-001,Coffee Maker,Home & Garden,Kitchen,34,2024-11-17 00:00:00,54.12,CUST-0034,Netherlands
+INV-100326,CLOTH-002,Jeans Classic,Clothing,Bottoms,31,2024-05-09 00:00:00,54.24,CUST-0096,Italy
+INV-100327,CLOTH-002,Jeans Classic,Clothing,Bottoms,2,2024-04-25 00:00:00,46.65,CUST-0076,Portugal
+INV-100328,CLOTH-001,Cotton T-Shirt,Clothing,Tops,23,2024-12-18 00:00:00,21.45,CUST-0050,Netherlands
+INV-100329,CLOTH-001,Cotton T-Shirt,Clothing,Tops,33,2025-05-12 00:00:00,21.9,CUST-0085,Spain
+INV-100330,ELEC-002,Wireless Mouse,Electronics,Accessories,16,2025-01-31 00:00:00,29.99,CUST-0019,Spain
+INV-100331,CLOTH-001,Cotton T-Shirt,Clothing,Tops,41,2023-12-29 00:00:00,18.39,CUST-0028,Austria
+INV-100332,SPORT-002,Running Shoes,Sports,Footwear,39,2025-03-11 00:00:00,96.17,CUST-0070,Netherlands
+INV-100333,ELEC-004,Bluetooth Speaker,Electronics,Audio,47,2023-12-11 00:00:00,84.48,CUST-0058,Belgium
+INV-100334,SPORT-002,Running Shoes,Sports,Footwear,7,2024-08-17 00:00:00,85.18,CUST-0046,Austria
+INV-100335,CLOTH-002,Jeans Classic,Clothing,Bottoms,45,2023-11-20 00:00:00,52.28,CUST-0001,Switzerland
+INV-100336,ELEC-001,"Laptop Pro 15""",Electronics,Computers,38,2025-01-05 00:00:00,970.98,CUST-0077,Germany
+INV-100337,BOOK-001,Python Programming,Books,Technology,27,2025-05-20 00:00:00,39.44,CUST-0061,Switzerland
+INV-100338,SPORT-002,Running Shoes,Sports,Footwear,19,2023-12-07 00:00:00,82.66,CUST-0016,Spain
+INV-100339,CLOTH-003,Winter Jacket,Clothing,Outerwear,30,2023-10-16 00:00:00,134.93,CUST-0045,Netherlands
+INV-100340,ELEC-004,Bluetooth Speaker,Electronics,Audio,19,2025-08-01 00:00:00,72.0,CUST-0089,Netherlands
+INV-100341,BOOK-001,Python Programming,Books,Technology,36,2024-08-11 00:00:00,36.16,CUST-0013,Belgium
+INV-100342,ELEC-003,USB-C Cable,Electronics,Accessories,20,2023-08-20 00:00:00,12.93,CUST-0002,Germany
+INV-100343,CLOTH-003,Winter Jacket,Clothing,Outerwear,48,2024-05-04 00:00:00,127.03,CUST-0090,Austria
+INV-100344,BOOK-001,Python Programming,Books,Technology,6,2024-04-05 00:00:00,39.88,CUST-0066,Germany
+INV-100345,SPORT-002,Running Shoes,Sports,Footwear,15,2024-04-19 00:00:00,81.75,CUST-0095,France
+INV-100346,CLOTH-001,Cotton T-Shirt,Clothing,Tops,36,2024-09-09 00:00:00,21.14,CUST-0060,Portugal
+INV-100347,SPORT-002,Running Shoes,Sports,Footwear,50,2024-05-19 00:00:00,93.48,CUST-0003,Netherlands
+INV-100348,CLOTH-002,Jeans Classic,Clothing,Bottoms,30,2024-12-28 00:00:00,46.0,CUST-0039,Switzerland
+INV-100349,SPORT-001,Yoga Mat,Sports,Fitness,16,2025-03-19 00:00:00,22.68,CUST-0075,UK
+INV-100350,HOME-002,Desk Lamp,Home & Garden,Lighting,37,2024-03-14 00:00:00,35.9,CUST-0098,Netherlands
+INV-100351,CLOTH-001,Cotton T-Shirt,Clothing,Tops,22,2024-07-28 00:00:00,18.29,CUST-0005,Netherlands
+INV-100352,ELEC-004,Bluetooth Speaker,Electronics,Audio,48,2024-06-10 00:00:00,72.59,CUST-0050,Italy
+INV-100353,HOME-002,Desk Lamp,Home & Garden,Lighting,21,2024-11-16 00:00:00,38.31,CUST-0098,France
+INV-100354,CLOTH-002,Jeans Classic,Clothing,Bottoms,14,2024-01-20 00:00:00,47.32,CUST-0068,France
+INV-100355,CLOTH-003,Winter Jacket,Clothing,Outerwear,11,2025-04-26 00:00:00,134.09,CUST-0070,Netherlands
+INV-100356,ELEC-004,Bluetooth Speaker,Electronics,Audio,25,2025-01-03 00:00:00,76.96,CUST-0005,Italy
+INV-100357,ELEC-004,Bluetooth Speaker,Electronics,Audio,49,2025-05-29 00:00:00,85.0,CUST-0057,Spain
+INV-100358,CLOTH-001,Cotton T-Shirt,Clothing,Tops,31,2025-07-08 00:00:00,21.35,CUST-0085,Italy
+INV-100359,ELEC-002,Wireless Mouse,Electronics,Accessories,36,2023-09-19 00:00:00,27.78,CUST-0004,Portugal
+INV-100360,HOME-001,Coffee Maker,Home & Garden,Kitchen,46,2025-04-27 00:00:00,62.21,CUST-0084,Belgium
+INV-100361,ELEC-001,"Laptop Pro 15""",Electronics,Computers,30,2024-02-23 00:00:00,982.5,CUST-0028,Switzerland
+INV-100362,ELEC-002,Wireless Mouse,Electronics,Accessories,45,2024-06-30 00:00:00,28.2,CUST-0008,France
+INV-100363,SPORT-002,Running Shoes,Sports,Footwear,36,2024-12-23 00:00:00,95.57,CUST-0086,Netherlands
+INV-100364,BOOK-001,Python Programming,Books,Technology,6,2025-04-21 00:00:00,41.55,CUST-0038,Italy
+INV-100365,ELEC-002,Wireless Mouse,Electronics,Accessories,12,2024-03-09 00:00:00,27.17,CUST-0022,Spain
+INV-100366,ELEC-003,USB-C Cable,Electronics,Accessories,33,2025-04-09 00:00:00,12.85,CUST-0034,Germany
+INV-100367,SPORT-001,Yoga Mat,Sports,Fitness,1,2025-01-24 00:00:00,24.71,CUST-0017,Spain
+INV-100368,ELEC-004,Bluetooth Speaker,Electronics,Audio,1,2025-02-06 00:00:00,72.9,CUST-0008,Belgium
+INV-100369,CLOTH-003,Winter Jacket,Clothing,Outerwear,28,2025-02-18 00:00:00,125.11,CUST-0043,Spain
+INV-100370,HOME-002,Desk Lamp,Home & Garden,Lighting,46,2023-11-17 00:00:00,31.63,CUST-0073,France
+INV-100371,CLOTH-002,Jeans Classic,Clothing,Bottoms,50,2025-07-25 00:00:00,47.43,CUST-0068,Switzerland
+INV-100372,ELEC-004,Bluetooth Speaker,Electronics,Audio,45,2025-01-04 00:00:00,82.28,CUST-0051,Germany
+INV-100373,SPORT-002,Running Shoes,Sports,Footwear,11,2024-03-25 00:00:00,88.47,CUST-0087,Switzerland
+INV-100374,CLOTH-003,Winter Jacket,Clothing,Outerwear,44,2024-10-22 00:00:00,128.09,CUST-0085,Austria
+INV-100375,BOOK-001,Python Programming,Books,Technology,22,2025-02-22 00:00:00,37.79,CUST-0076,Netherlands
+INV-100376,CLOTH-002,Jeans Classic,Clothing,Bottoms,14,2024-02-16 00:00:00,52.64,CUST-0023,Spain
+INV-100377,SPORT-001,Yoga Mat,Sports,Fitness,28,2024-12-20 00:00:00,26.72,CUST-0070,Spain
+INV-100378,ELEC-003,USB-C Cable,Electronics,Accessories,45,2023-12-07 00:00:00,12.37,CUST-0055,Italy
+INV-100379,SPORT-001,Yoga Mat,Sports,Fitness,30,2025-05-01 00:00:00,24.93,CUST-0089,Belgium
+INV-100380,HOME-001,Coffee Maker,Home & Garden,Kitchen,32,2024-06-27 00:00:00,60.59,CUST-0014,Switzerland
+INV-100381,ELEC-002,Wireless Mouse,Electronics,Accessories,25,2024-02-17 00:00:00,31.15,CUST-0083,Spain
+INV-100382,HOME-001,Coffee Maker,Home & Garden,Kitchen,13,2025-01-27 00:00:00,55.5,CUST-0049,Austria
+INV-100383,HOME-001,Coffee Maker,Home & Garden,Kitchen,34,2024-07-12 00:00:00,55.45,CUST-0010,Switzerland
+INV-100384,BOOK-001,Python Programming,Books,Technology,9,2023-11-12 00:00:00,40.45,CUST-0085,Germany
+INV-100385,HOME-002,Desk Lamp,Home & Garden,Lighting,49,2024-09-21 00:00:00,32.84,CUST-0024,Spain
+INV-100386,BOOK-001,Python Programming,Books,Technology,42,2023-09-17 00:00:00,38.61,CUST-0085,Switzerland
+INV-100387,SPORT-002,Running Shoes,Sports,Footwear,3,2024-08-16 00:00:00,88.17,CUST-0032,Switzerland
+INV-100388,ELEC-002,Wireless Mouse,Electronics,Accessories,35,2023-12-14 00:00:00,28.32,CUST-0027,UK
+INV-100389,BOOK-001,Python Programming,Books,Technology,46,2024-07-12 00:00:00,36.27,CUST-0046,Italy
+INV-100390,BOOK-001,Python Programming,Books,Technology,34,2024-03-09 00:00:00,40.92,CUST-0030,Germany
+INV-100391,SPORT-001,Yoga Mat,Sports,Fitness,9,2024-09-29 00:00:00,22.56,CUST-0003,France
+INV-100392,ELEC-003,USB-C Cable,Electronics,Accessories,13,2024-04-30 00:00:00,11.87,CUST-0049,Netherlands
+INV-100393,SPORT-001,Yoga Mat,Sports,Fitness,24,2024-03-28 00:00:00,24.4,CUST-0049,Switzerland
+INV-100394,HOME-002,Desk Lamp,Home & Garden,Lighting,47,2024-04-14 00:00:00,36.4,CUST-0052,UK
+INV-100395,SPORT-002,Running Shoes,Sports,Footwear,28,2024-04-21 00:00:00,83.12,CUST-0021,Italy
+INV-100396,ELEC-002,Wireless Mouse,Electronics,Accessories,8,2024-02-28 00:00:00,32.37,CUST-0077,Belgium
+INV-100397,BOOK-001,Python Programming,Books,Technology,2,2024-12-25 00:00:00,36.13,CUST-0056,Netherlands
+INV-100398,HOME-001,Coffee Maker,Home & Garden,Kitchen,18,2025-01-10 00:00:00,61.52,CUST-0026,Netherlands
+INV-100399,HOME-002,Desk Lamp,Home & Garden,Lighting,20,2025-04-19 00:00:00,33.81,CUST-0021,Portugal
+INV-100400,BOOK-001,Python Programming,Books,Technology,43,2025-06-10 00:00:00,39.81,CUST-0022,Portugal
+INV-100401,ELEC-004,Bluetooth Speaker,Electronics,Audio,45,2025-07-17 00:00:00,85.25,CUST-0004,Spain
+INV-100402,ELEC-004,Bluetooth Speaker,Electronics,Audio,26,2023-12-28 00:00:00,87.27,CUST-0051,Belgium
+INV-100403,ELEC-001,"Laptop Pro 15""",Electronics,Computers,18,2025-07-07 00:00:00,854.86,CUST-0062,France
+INV-100404,CLOTH-002,Jeans Classic,Clothing,Bottoms,40,2024-08-30 00:00:00,47.88,CUST-0039,Portugal
+INV-100405,HOME-001,Coffee Maker,Home & Garden,Kitchen,18,2024-02-12 00:00:00,63.62,CUST-0065,Spain
+INV-100406,HOME-001,Coffee Maker,Home & Garden,Kitchen,31,2024-06-02 00:00:00,54.86,CUST-0008,UK
+INV-100407,BOOK-001,Python Programming,Books,Technology,35,2024-12-04 00:00:00,41.86,CUST-0090,Spain
+INV-100408,CLOTH-001,Cotton T-Shirt,Clothing,Tops,31,2023-11-25 00:00:00,18.96,CUST-0010,Netherlands
+INV-100409,HOME-002,Desk Lamp,Home & Garden,Lighting,43,2025-07-04 00:00:00,36.2,CUST-0005,Italy
+INV-100410,SPORT-001,Yoga Mat,Sports,Fitness,48,2025-05-01 00:00:00,26.76,CUST-0016,France
+INV-100411,SPORT-002,Running Shoes,Sports,Footwear,11,2025-07-20 00:00:00,83.92,CUST-0072,Portugal
+INV-100412,HOME-001,Coffee Maker,Home & Garden,Kitchen,6,2023-11-05 00:00:00,64.99,CUST-0060,UK
+INV-100413,CLOTH-001,Cotton T-Shirt,Clothing,Tops,9,2024-06-26 00:00:00,19.33,CUST-0048,UK
+INV-100414,ELEC-001,"Laptop Pro 15""",Electronics,Computers,35,2025-05-04 00:00:00,927.64,CUST-0084,Netherlands
+INV-100415,HOME-001,Coffee Maker,Home & Garden,Kitchen,26,2024-10-03 00:00:00,57.45,CUST-0087,Austria
+INV-100416,ELEC-001,"Laptop Pro 15""",Electronics,Computers,7,2025-07-15 00:00:00,831.66,CUST-0004,Austria
+INV-100417,SPORT-002,Running Shoes,Sports,Footwear,34,2024-03-06 00:00:00,97.81,CUST-0083,Portugal
+INV-100418,HOME-002,Desk Lamp,Home & Garden,Lighting,27,2024-11-06 00:00:00,36.84,CUST-0023,Italy
+INV-100419,SPORT-002,Running Shoes,Sports,Footwear,33,2025-01-19 00:00:00,81.38,CUST-0057,Portugal
+INV-100420,CLOTH-002,Jeans Classic,Clothing,Bottoms,18,2024-09-28 00:00:00,52.99,CUST-0078,France
+INV-100421,HOME-001,Coffee Maker,Home & Garden,Kitchen,47,2025-05-20 00:00:00,65.69,CUST-0040,France
+INV-100422,ELEC-002,Wireless Mouse,Electronics,Accessories,39,2024-12-09 00:00:00,32.11,CUST-0061,Portugal
+INV-100423,CLOTH-001,Cotton T-Shirt,Clothing,Tops,31,2024-07-19 00:00:00,20.72,CUST-0056,France
+INV-100424,HOME-002,Desk Lamp,Home & Garden,Lighting,21,2023-12-14 00:00:00,33.78,CUST-0042,Italy
+INV-100425,SPORT-001,Yoga Mat,Sports,Fitness,35,2025-03-19 00:00:00,24.81,CUST-0059,France
+INV-100426,ELEC-002,Wireless Mouse,Electronics,Accessories,43,2024-01-30 00:00:00,27.13,CUST-0019,Austria
+INV-100427,BOOK-001,Python Programming,Books,Technology,7,2023-12-01 00:00:00,36.72,CUST-0077,Italy
+INV-100428,ELEC-002,Wireless Mouse,Electronics,Accessories,21,2025-06-18 00:00:00,32.3,CUST-0033,Austria
+INV-100429,HOME-002,Desk Lamp,Home & Garden,Lighting,11,2024-08-02 00:00:00,35.63,CUST-0046,Spain
+INV-100430,ELEC-001,"Laptop Pro 15""",Electronics,Computers,45,2025-05-23 00:00:00,840.54,CUST-0033,Italy
+INV-100431,CLOTH-002,Jeans Classic,Clothing,Bottoms,4,2024-11-14 00:00:00,50.46,CUST-0084,France
+INV-100432,ELEC-001,"Laptop Pro 15""",Electronics,Computers,19,2024-02-16 00:00:00,929.62,CUST-0076,Switzerland
+INV-100433,CLOTH-002,Jeans Classic,Clothing,Bottoms,25,2025-06-25 00:00:00,52.89,CUST-0097,Portugal
+INV-100434,ELEC-004,Bluetooth Speaker,Electronics,Audio,24,2023-11-04 00:00:00,75.22,CUST-0029,Germany
+INV-100435,ELEC-003,USB-C Cable,Electronics,Accessories,33,2025-06-03 00:00:00,13.97,CUST-0023,Spain
+INV-100436,CLOTH-001,Cotton T-Shirt,Clothing,Tops,30,2025-03-23 00:00:00,21.82,CUST-0059,Portugal
+INV-100437,HOME-001,Coffee Maker,Home & Garden,Kitchen,18,2023-10-08 00:00:00,54.21,CUST-0092,Switzerland
+INV-100438,ELEC-003,USB-C Cable,Electronics,Accessories,32,2025-07-16 00:00:00,12.66,CUST-0029,Netherlands
+INV-100439,CLOTH-001,Cotton T-Shirt,Clothing,Tops,6,2024-02-14 00:00:00,21.45,CUST-0067,France
+INV-100440,HOME-001,Coffee Maker,Home & Garden,Kitchen,21,2024-06-05 00:00:00,57.02,CUST-0087,Germany
+INV-100441,CLOTH-002,Jeans Classic,Clothing,Bottoms,36,2024-11-10 00:00:00,47.19,CUST-0073,Portugal
+INV-100442,ELEC-002,Wireless Mouse,Electronics,Accessories,18,2024-10-18 00:00:00,30.38,CUST-0038,UK
+INV-100443,HOME-001,Coffee Maker,Home & Garden,Kitchen,18,2025-05-17 00:00:00,65.47,CUST-0023,Italy
+INV-100444,HOME-001,Coffee Maker,Home & Garden,Kitchen,20,2025-04-09 00:00:00,58.93,CUST-0059,Netherlands
+INV-100445,SPORT-001,Yoga Mat,Sports,Fitness,36,2023-12-14 00:00:00,24.73,CUST-0072,UK
+INV-100446,SPORT-001,Yoga Mat,Sports,Fitness,17,2024-05-26 00:00:00,27.0,CUST-0067,Germany
+INV-100447,ELEC-002,Wireless Mouse,Electronics,Accessories,8,2025-07-16 00:00:00,29.66,CUST-0003,Spain
+INV-100448,ELEC-004,Bluetooth Speaker,Electronics,Audio,40,2023-12-18 00:00:00,75.19,CUST-0010,Netherlands
+INV-100449,SPORT-001,Yoga Mat,Sports,Fitness,42,2025-04-08 00:00:00,22.94,CUST-0046,Spain
+INV-100450,HOME-001,Coffee Maker,Home & Garden,Kitchen,38,2025-07-22 00:00:00,64.53,CUST-0084,Italy
+INV-100451,CLOTH-002,Jeans Classic,Clothing,Bottoms,18,2025-02-15 00:00:00,47.45,CUST-0068,Spain
+INV-100452,SPORT-002,Running Shoes,Sports,Footwear,45,2024-04-05 00:00:00,83.32,CUST-0063,Italy
+INV-100453,ELEC-002,Wireless Mouse,Electronics,Accessories,13,2023-09-27 00:00:00,32.14,CUST-0005,UK
+INV-100454,CLOTH-003,Winter Jacket,Clothing,Outerwear,6,2023-10-08 00:00:00,121.03,CUST-0047,Netherlands
+INV-100455,ELEC-004,Bluetooth Speaker,Electronics,Audio,16,2024-07-24 00:00:00,87.58,CUST-0018,Netherlands
+INV-100456,ELEC-002,Wireless Mouse,Electronics,Accessories,32,2024-03-24 00:00:00,32.03,CUST-0075,Italy
+INV-100457,CLOTH-003,Winter Jacket,Clothing,Outerwear,46,2024-06-03 00:00:00,121.34,CUST-0041,Italy
+INV-100458,BOOK-001,Python Programming,Books,Technology,24,2023-11-09 00:00:00,39.96,CUST-0072,Portugal
+INV-100459,CLOTH-002,Jeans Classic,Clothing,Bottoms,29,2024-12-21 00:00:00,54.02,CUST-0098,Spain
+INV-100460,SPORT-001,Yoga Mat,Sports,Fitness,37,2024-10-28 00:00:00,26.39,CUST-0091,Switzerland
+INV-100461,SPORT-001,Yoga Mat,Sports,Fitness,26,2024-03-13 00:00:00,24.54,CUST-0024,France
+INV-100462,ELEC-003,USB-C Cable,Electronics,Accessories,31,2025-05-30 00:00:00,13.88,CUST-0090,UK
+INV-100463,HOME-002,Desk Lamp,Home & Garden,Lighting,22,2024-02-12 00:00:00,36.53,CUST-0044,Spain
+INV-100464,HOME-002,Desk Lamp,Home & Garden,Lighting,5,2023-08-15 00:00:00,35.2,CUST-0037,Austria
+INV-100465,ELEC-001,"Laptop Pro 15""",Electronics,Computers,35,2025-08-03 00:00:00,916.13,CUST-0019,Netherlands
+INV-100466,ELEC-002,Wireless Mouse,Electronics,Accessories,4,2023-08-15 00:00:00,27.72,CUST-0038,France
+INV-100467,ELEC-001,"Laptop Pro 15""",Electronics,Computers,38,2024-12-18 00:00:00,0.0,CUST-0058,Netherlands
+INV-100468,BOOK-001,Python Programming,Books,Technology,38,2025-01-18 00:00:00,40.22,CUST-0025,Netherlands
+INV-100469,ELEC-001,"Laptop Pro 15""",Electronics,Computers,35,2025-02-19 00:00:00,824.48,CUST-0073,Germany
+INV-100470,BOOK-001,Python Programming,Books,Technology,35,2025-07-19 00:00:00,37.43,CUST-0040,Germany
+INV-100471,CLOTH-002,Jeans Classic,Clothing,Bottoms,2,2024-03-14 00:00:00,47.19,CUST-0100,Portugal
+INV-100472,SPORT-002,Running Shoes,Sports,Footwear,21,2023-12-08 00:00:00,96.18,CUST-0016,France
+INV-100473,HOME-002,Desk Lamp,Home & Garden,Lighting,31,2024-01-16 00:00:00,35.53,CUST-0024,Netherlands
+INV-100474,CLOTH-002,Jeans Classic,Clothing,Bottoms,9,2025-08-09 00:00:00,50.89,CUST-0029,Germany
+INV-100475,CLOTH-001,Cotton T-Shirt,Clothing,Tops,31,2023-08-26 00:00:00,20.67,CUST-0043,UK
+INV-100476,CLOTH-003,Winter Jacket,Clothing,Outerwear,6,2025-02-03 00:00:00,126.76,CUST-0025,Germany
+INV-100477,BOOK-001,Python Programming,Books,Technology,23,2025-03-19 00:00:00,36.3,CUST-0030,Austria
+INV-100478,CLOTH-003,Winter Jacket,Clothing,Outerwear,50,2024-11-28 00:00:00,136.46,CUST-0072,Portugal
+INV-100479,ELEC-004,Bluetooth Speaker,Electronics,Audio,29,2023-12-06 00:00:00,81.94,CUST-0046,Belgium
+INV-100480,CLOTH-003,Winter Jacket,Clothing,Outerwear,28,2025-07-11 00:00:00,126.03,CUST-0024,Netherlands
+INV-100481,CLOTH-001,Cotton T-Shirt,Clothing,Tops,10,2025-02-07 00:00:00,18.11,CUST-0079,Portugal
+INV-100482,CLOTH-002,Jeans Classic,Clothing,Bottoms,31,2025-01-31 00:00:00,50.94,CUST-0023,Italy
+INV-100483,HOME-002,Desk Lamp,Home & Garden,Lighting,10,2025-02-22 00:00:00,34.74,CUST-0073,Germany
+INV-100484,CLOTH-003,Winter Jacket,Clothing,Outerwear,28,2024-07-26 00:00:00,139.18,CUST-0015,Portugal
+INV-100485,CLOTH-001,Cotton T-Shirt,Clothing,Tops,49,2024-12-10 00:00:00,19.1,CUST-0055,UK
+INV-100486,CLOTH-002,Jeans Classic,Clothing,Bottoms,35,2024-11-27 00:00:00,45.86,CUST-0082,Switzerland
+INV-100487,ELEC-002,Wireless Mouse,Electronics,Accessories,17,2024-09-28 00:00:00,27.46,CUST-0041,Netherlands
+INV-100488,HOME-002,Desk Lamp,Home & Garden,Lighting,27,2024-01-29 00:00:00,33.3,CUST-0095,Germany
+INV-100489,CLOTH-002,Jeans Classic,Clothing,Bottoms,13,2025-05-20 00:00:00,50.38,CUST-0017,Belgium
+INV-100490,ELEC-001,"Laptop Pro 15""",Electronics,Computers,4,2023-11-04 00:00:00,970.48,CUST-0060,Italy
+INV-100491,ELEC-001,"Laptop Pro 15""",Electronics,Computers,13,2024-01-16 00:00:00,886.76,CUST-0086,UK
+INV-100492,CLOTH-003,Winter Jacket,Clothing,Outerwear,47,2023-10-25 00:00:00,118.27,CUST-0098,Netherlands
+INV-100493,ELEC-003,USB-C Cable,Electronics,Accessories,38,2024-05-20 00:00:00,13.1,CUST-0006,Austria
+INV-100494,BOOK-001,Python Programming,Books,Technology,50,2025-05-02 00:00:00,39.29,CUST-0083,Germany
+INV-100495,ELEC-001,"Laptop Pro 15""",Electronics,Computers,27,2023-11-22 00:00:00,818.99,CUST-0001,Netherlands
+INV-100496,CLOTH-001,Cotton T-Shirt,Clothing,Tops,29,2025-08-10 00:00:00,20.26,CUST-0052,Switzerland
+INV-100497,CLOTH-003,Winter Jacket,Clothing,Outerwear,23,2024-10-12 00:00:00,128.35,CUST-0092,Spain
+INV-100498,ELEC-004,Bluetooth Speaker,Electronics,Audio,10,2023-09-22 00:00:00,82.23,CUST-0022,Italy
+INV-100499,ELEC-001,"Laptop Pro 15""",Electronics,Computers,42,2023-12-25 00:00:00,909.95,CUST-0055,Switzerland
+INV-100500,ELEC-004,Bluetooth Speaker,Electronics,Audio,10,2024-10-14 00:00:00,86.68,CUST-0049,Austria
+INV-100501,ELEC-004,Bluetooth Speaker,Electronics,Audio,19,2024-02-07 00:00:00,87.05,CUST-0065,Austria
+INV-100502,HOME-002,Desk Lamp,Home & Garden,Lighting,1,2024-09-14 00:00:00,34.71,CUST-0011,Italy
+INV-100503,CLOTH-001,Cotton T-Shirt,Clothing,Tops,48,2024-10-20 00:00:00,21.06,CUST-0010,Portugal
+INV-100504,ELEC-002,Wireless Mouse,Electronics,Accessories,21,2024-09-14 00:00:00,32.4,CUST-0039,Switzerland
+INV-100505,SPORT-001,Yoga Mat,Sports,Fitness,15,2025-07-12 00:00:00,26.47,CUST-0011,Switzerland
+INV-100506,BOOK-001,Python Programming,Books,Technology,10,2024-08-15 00:00:00,36.33,CUST-0013,Belgium
+INV-100507,CLOTH-003,Winter Jacket,Clothing,Outerwear,25,2024-03-05 00:00:00,131.06,CUST-0083,Spain
+INV-100508,CLOTH-003,Winter Jacket,Clothing,Outerwear,8,2025-03-18 00:00:00,127.56,CUST-0079,Switzerland
+INV-100509,HOME-001,Coffee Maker,Home & Garden,Kitchen,7,2023-12-12 00:00:00,61.81,CUST-0091,Germany
+INV-100510,BOOK-001,Python Programming,Books,Technology,15,2025-07-16 00:00:00,43.12,CUST-0031,Austria
+INV-100511,HOME-001,Coffee Maker,Home & Garden,Kitchen,38,2024-12-16 00:00:00,59.36,CUST-0097,UK
+INV-100512,ELEC-004,Bluetooth Speaker,Electronics,Audio,44,2024-03-07 00:00:00,81.21,CUST-0066,France
+INV-100513,SPORT-002,Running Shoes,Sports,Footwear,29,2024-11-12 00:00:00,93.2,CUST-0043,France
+INV-100514,CLOTH-002,Jeans Classic,Clothing,Bottoms,7,2024-01-03 00:00:00,46.08,CUST-0099,France
+INV-100515,ELEC-004,Bluetooth Speaker,Electronics,Audio,32,2024-06-26 00:00:00,75.22,CUST-0066,Italy
+INV-100516,ELEC-001,"Laptop Pro 15""",Electronics,Computers,28,2024-11-08 00:00:00,890.24,CUST-0011,UK
+INV-100517,HOME-002,Desk Lamp,Home & Garden,Lighting,6,2023-08-14 00:00:00,32.79,CUST-0080,Spain
+INV-100518,ELEC-003,USB-C Cable,Electronics,Accessories,22,2025-05-24 00:00:00,13.66,CUST-0078,Spain
+INV-100519,HOME-002,Desk Lamp,Home & Garden,Lighting,28,2024-05-28 00:00:00,37.35,CUST-0092,Portugal
+INV-100520,BOOK-001,Python Programming,Books,Technology,9,2023-11-07 00:00:00,42.3,CUST-0081,Portugal
+INV-100521,SPORT-001,Yoga Mat,Sports,Fitness,38,2024-03-21 00:00:00,24.55,CUST-0073,UK
+INV-100522,CLOTH-003,Winter Jacket,Clothing,Outerwear,33,2023-11-08 00:00:00,140.59,CUST-0010,Italy
+INV-100523,ELEC-003,USB-C Cable,Electronics,Accessories,31,2025-08-09 00:00:00,13.92,CUST-0071,Netherlands
+INV-100524,ELEC-001,"Laptop Pro 15""",Electronics,Computers,21,2023-12-24 00:00:00,930.62,CUST-0006,UK
+INV-100525,CLOTH-003,Winter Jacket,Clothing,Outerwear,23,2025-04-29 00:00:00,122.99,CUST-0052,Austria
+INV-100526,SPORT-001,Yoga Mat,Sports,Fitness,2,2023-10-04 00:00:00,24.95,CUST-0024,Germany
+INV-100527,SPORT-001,Yoga Mat,Sports,Fitness,37,2023-11-27 00:00:00,22.97,CUST-0044,Italy
+INV-100528,HOME-001,Coffee Maker,Home & Garden,Kitchen,34,2023-10-20 00:00:00,59.56,CUST-0007,Germany
+INV-100529,HOME-002,Desk Lamp,Home & Garden,Lighting,8,2024-08-19 00:00:00,33.86,CUST-0079,Germany
+INV-100530,SPORT-001,Yoga Mat,Sports,Fitness,37,2024-03-24 00:00:00,25.85,CUST-0008,Germany
+INV-100531,CLOTH-001,Cotton T-Shirt,Clothing,Tops,38,2025-01-24 00:00:00,19.43,CUST-0033,Spain
+INV-100532,HOME-001,Coffee Maker,Home & Garden,Kitchen,40,2024-06-09 00:00:00,56.01,CUST-0072,Italy
+INV-100533,CLOTH-001,Cotton T-Shirt,Clothing,Tops,3,2024-01-28 00:00:00,18.46,CUST-0002,Austria
+INV-100534,ELEC-001,"Laptop Pro 15""",Electronics,Computers,49,2024-05-09 00:00:00,957.27,CUST-0057,Portugal
+INV-100535,BOOK-001,Python Programming,Books,Technology,40,2025-02-09 00:00:00,37.64,CUST-0068,Austria
+INV-100536,BOOK-001,Python Programming,Books,Technology,45,2024-02-03 00:00:00,43.71,CUST-0040,Netherlands
+INV-100537,ELEC-003,USB-C Cable,Electronics,Accessories,9,2023-11-17 00:00:00,13.68,CUST-0070,Germany
+INV-100538,CLOTH-003,Winter Jacket,Clothing,Outerwear,9,2023-10-29 00:00:00,121.22,CUST-0006,Italy
+INV-100539,CLOTH-003,Winter Jacket,Clothing,Outerwear,27,2023-09-10 00:00:00,123.58,CUST-0080,France
+INV-100540,ELEC-001,"Laptop Pro 15""",Electronics,Computers,37,2025-07-01 00:00:00,936.54,CUST-0025,UK
+INV-100541,ELEC-003,USB-C Cable,Electronics,Accessories,17,2024-09-21 00:00:00,11.97,CUST-0072,Netherlands
+INV-100542,ELEC-003,USB-C Cable,Electronics,Accessories,12,2024-05-02 00:00:00,13.88,CUST-0043,Austria
+INV-100543,CLOTH-003,Winter Jacket,Clothing,Outerwear,36,2025-04-08 00:00:00,122.41,CUST-0043,Belgium
+INV-100544,HOME-002,Desk Lamp,Home & Garden,Lighting,15,2024-12-12 00:00:00,36.23,CUST-0076,Germany
+INV-100545,BOOK-001,Python Programming,Books,Technology,23,2024-03-06 00:00:00,36.09,CUST-0043,Portugal
+INV-100546,SPORT-002,Running Shoes,Sports,Footwear,39,2024-02-13 00:00:00,81.93,CUST-0091,Spain
+INV-100547,HOME-001,Coffee Maker,Home & Garden,Kitchen,18,2024-02-29 00:00:00,56.5,CUST-0060,Switzerland
+INV-100548,CLOTH-002,Jeans Classic,Clothing,Bottoms,20,2025-06-17 00:00:00,45.81,CUST-0029,Switzerland
+INV-100549,ELEC-004,Bluetooth Speaker,Electronics,Audio,9,2024-01-22 00:00:00,72.31,CUST-0050,Austria
+INV-100550,SPORT-002,Running Shoes,Sports,Footwear,22,2025-03-13 00:00:00,89.51,CUST-0001,Netherlands
+INV-100551,HOME-002,Desk Lamp,Home & Garden,Lighting,8,2024-06-11 00:00:00,0.0,CUST-0039,Austria
+INV-100552,ELEC-001,"Laptop Pro 15""",Electronics,Computers,2,2025-07-24 00:00:00,813.53,CUST-0039,Austria
+INV-100553,CLOTH-003,Winter Jacket,Clothing,Outerwear,23,2023-11-29 00:00:00,135.95,CUST-0030,Netherlands
+INV-100554,HOME-002,Desk Lamp,Home & Garden,Lighting,4,2024-01-19 00:00:00,35.48,CUST-0053,Germany
+INV-100555,SPORT-002,Running Shoes,Sports,Footwear,50,2025-07-23 00:00:00,88.48,CUST-0042,Germany
+INV-100556,ELEC-004,Bluetooth Speaker,Electronics,Audio,8,2024-02-05 00:00:00,87.75,CUST-0015,Belgium
+INV-100557,CLOTH-002,Jeans Classic,Clothing,Bottoms,26,2024-11-02 00:00:00,52.56,CUST-0013,France
+INV-100558,ELEC-002,Wireless Mouse,Electronics,Accessories,9,2025-06-17 00:00:00,29.11,CUST-0044,UK
+INV-100559,SPORT-001,Yoga Mat,Sports,Fitness,2,2024-11-27 00:00:00,27.04,CUST-0096,Germany
+INV-100560,SPORT-002,Running Shoes,Sports,Footwear,9,2024-06-04 00:00:00,87.08,CUST-0100,Belgium
+INV-100561,CLOTH-003,Winter Jacket,Clothing,Outerwear,11,2024-10-09 00:00:00,126.98,CUST-0017,France
+INV-100562,ELEC-001,"Laptop Pro 15""",Electronics,Computers,6,2025-03-14 00:00:00,856.14,CUST-0071,Italy
+INV-100563,SPORT-001,Yoga Mat,Sports,Fitness,26,2024-04-21 00:00:00,25.23,CUST-0038,Belgium
+INV-100564,CLOTH-002,Jeans Classic,Clothing,Bottoms,26,2025-04-18 00:00:00,54.64,CUST-0068,Italy
+INV-100565,HOME-001,Coffee Maker,Home & Garden,Kitchen,29,2023-12-01 00:00:00,59.43,CUST-0056,UK
+INV-100566,ELEC-004,Bluetooth Speaker,Electronics,Audio,2,2023-10-31 00:00:00,74.05,CUST-0065,UK
+INV-100567,CLOTH-002,Jeans Classic,Clothing,Bottoms,12,2024-10-07 00:00:00,54.73,CUST-0055,Switzerland
+INV-100568,CLOTH-001,Cotton T-Shirt,Clothing,Tops,13,2025-04-01 00:00:00,19.19,CUST-0045,Netherlands
+INV-100569,ELEC-004,Bluetooth Speaker,Electronics,Audio,29,2024-06-01 00:00:00,78.29,CUST-0099,Austria
+INV-100570,HOME-002,Desk Lamp,Home & Garden,Lighting,31,2024-03-17 00:00:00,33.55,CUST-0005,Germany
+INV-100571,ELEC-004,Bluetooth Speaker,Electronics,Audio,7,2023-11-19 00:00:00,72.96,CUST-0049,Germany
+INV-100572,ELEC-002,Wireless Mouse,Electronics,Accessories,47,2024-07-26 00:00:00,30.32,CUST-0077,Switzerland
+INV-100573,ELEC-004,Bluetooth Speaker,Electronics,Audio,40,2025-08-08 00:00:00,82.31,CUST-0008,Germany
+INV-100574,HOME-002,Desk Lamp,Home & Garden,Lighting,25,2023-11-27 00:00:00,33.6,CUST-0034,Netherlands
+INV-100575,CLOTH-003,Winter Jacket,Clothing,Outerwear,18,2023-10-31 00:00:00,120.3,CUST-0043,Spain
+INV-100576,ELEC-003,USB-C Cable,Electronics,Accessories,27,2023-09-17 00:00:00,12.5,CUST-0067,Belgium
+INV-100577,HOME-001,Coffee Maker,Home & Garden,Kitchen,24,2024-06-18 00:00:00,56.79,CUST-0067,Italy
+INV-100578,ELEC-003,USB-C Cable,Electronics,Accessories,5,2024-04-22 00:00:00,13.29,CUST-0097,Netherlands
+INV-100579,BOOK-001,Python Programming,Books,Technology,4,2025-06-23 00:00:00,39.0,CUST-0047,France
+INV-100580,SPORT-002,Running Shoes,Sports,Footwear,18,2023-10-07 00:00:00,86.15,CUST-0042,Belgium
+INV-100581,SPORT-001,Yoga Mat,Sports,Fitness,17,2023-12-21 00:00:00,27.46,CUST-0097,France
+INV-100582,ELEC-003,USB-C Cable,Electronics,Accessories,14,2025-07-13 00:00:00,13.93,CUST-0024,UK
+INV-100583,ELEC-002,Wireless Mouse,Electronics,Accessories,14,2024-12-30 00:00:00,28.17,CUST-0013,Belgium
+INV-100584,SPORT-001,Yoga Mat,Sports,Fitness,26,2025-05-14 00:00:00,23.74,CUST-0063,UK
+INV-100585,ELEC-003,USB-C Cable,Electronics,Accessories,32,2023-08-27 00:00:00,13.84,CUST-0056,Belgium
+INV-100586,ELEC-002,Wireless Mouse,Electronics,Accessories,28,2023-12-05 00:00:00,31.17,CUST-0029,France
+INV-100587,CLOTH-002,Jeans Classic,Clothing,Bottoms,15,2025-03-23 00:00:00,50.09,CUST-0048,Austria
+INV-100588,HOME-002,Desk Lamp,Home & Garden,Lighting,22,2024-11-22 00:00:00,32.29,CUST-0064,Switzerland
+INV-100589,HOME-002,Desk Lamp,Home & Garden,Lighting,11,2024-08-25 00:00:00,33.22,CUST-0007,France
+INV-100590,ELEC-001,"Laptop Pro 15""",Electronics,Computers,38,2024-04-27 00:00:00,953.05,CUST-0075,Belgium
+INV-100591,ELEC-001,"Laptop Pro 15""",Electronics,Computers,19,2023-10-29 00:00:00,948.98,CUST-0020,Portugal
+INV-100592,CLOTH-002,Jeans Classic,Clothing,Bottoms,4,2023-09-17 00:00:00,51.69,CUST-0097,Netherlands
+INV-100593,SPORT-001,Yoga Mat,Sports,Fitness,46,2025-03-04 00:00:00,26.18,CUST-0002,Italy
+INV-100594,HOME-002,Desk Lamp,Home & Garden,Lighting,26,2024-09-10 00:00:00,32.89,CUST-0022,Netherlands
+INV-100595,ELEC-002,Wireless Mouse,Electronics,Accessories,31,2024-07-25 00:00:00,30.81,CUST-0054,France
+INV-100596,ELEC-001,"Laptop Pro 15""",Electronics,Computers,1,2025-01-27 00:00:00,980.35,CUST-0100,Switzerland
+INV-100597,SPORT-001,Yoga Mat,Sports,Fitness,49,2024-07-04 00:00:00,23.19,CUST-0011,Portugal
+INV-100598,HOME-001,Coffee Maker,Home & Garden,Kitchen,34,2025-08-03 00:00:00,65.98,CUST-0081,France
+INV-100599,CLOTH-001,Cotton T-Shirt,Clothing,Tops,43,2024-06-05 00:00:00,21.48,CUST-0087,Austria
+INV-100600,CLOTH-003,Winter Jacket,Clothing,Outerwear,48,2024-06-25 00:00:00,136.15,CUST-0017,Portugal
+INV-100601,ELEC-002,Wireless Mouse,Electronics,Accessories,9,2025-02-27 00:00:00,29.11,CUST-0039,Italy
+INV-100602,ELEC-001,"Laptop Pro 15""",Electronics,Computers,38,2024-09-17 00:00:00,988.34,CUST-0095,France
+INV-100603,SPORT-001,Yoga Mat,Sports,Fitness,44,2024-09-12 00:00:00,27.15,CUST-0056,Austria
+INV-100604,CLOTH-001,Cotton T-Shirt,Clothing,Tops,22,2024-12-22 00:00:00,19.39,CUST-0051,Germany
+INV-100605,BOOK-001,Python Programming,Books,Technology,47,2023-10-09 00:00:00,39.63,CUST-0002,Portugal
+INV-100606,CLOTH-003,Winter Jacket,Clothing,Outerwear,41,2024-07-25 00:00:00,117.08,CUST-0061,Spain
+INV-100607,CLOTH-002,Jeans Classic,Clothing,Bottoms,43,2025-08-12 00:00:00,49.04,CUST-0034,Germany
+INV-100608,ELEC-003,USB-C Cable,Electronics,Accessories,8,2025-04-08 00:00:00,13.38,CUST-0040,Austria
+INV-100609,ELEC-004,Bluetooth Speaker,Electronics,Audio,12,2023-12-28 00:00:00,87.05,CUST-0031,Germany
+INV-100610,CLOTH-003,Winter Jacket,Clothing,Outerwear,42,2025-02-18 00:00:00,118.94,CUST-0045,Portugal
+INV-100611,CLOTH-003,Winter Jacket,Clothing,Outerwear,38,2024-02-14 00:00:00,123.29,CUST-0098,Belgium
+INV-100612,ELEC-003,USB-C Cable,Electronics,Accessories,11,2024-01-22 00:00:00,12.66,CUST-0084,Belgium
+INV-100613,SPORT-001,Yoga Mat,Sports,Fitness,48,2024-10-05 00:00:00,25.02,CUST-0047,Belgium
+INV-100614,ELEC-003,USB-C Cable,Electronics,Accessories,50,2024-12-02 00:00:00,12.63,CUST-0097,Spain
+INV-100615,CLOTH-003,Winter Jacket,Clothing,Outerwear,36,2023-10-19 00:00:00,124.16,CUST-0078,Portugal
+INV-100616,CLOTH-003,Winter Jacket,Clothing,Outerwear,38,2024-01-11 00:00:00,122.18,CUST-0004,Switzerland
+INV-100617,ELEC-003,USB-C Cable,Electronics,Accessories,41,2024-07-04 00:00:00,14.21,CUST-0084,Portugal
+INV-100618,SPORT-001,Yoga Mat,Sports,Fitness,49,2025-02-09 00:00:00,23.55,CUST-0009,France
+INV-100619,HOME-001,Coffee Maker,Home & Garden,Kitchen,3,2024-07-21 00:00:00,62.37,CUST-0043,Spain
+INV-100620,ELEC-002,Wireless Mouse,Electronics,Accessories,33,2024-03-12 00:00:00,27.27,CUST-0100,Germany
+INV-100621,HOME-001,Coffee Maker,Home & Garden,Kitchen,44,2024-05-03 00:00:00,64.11,CUST-0016,Italy
+INV-100622,CLOTH-002,Jeans Classic,Clothing,Bottoms,3,2025-03-17 00:00:00,53.94,CUST-0035,Germany
+INV-100623,CLOTH-001,Cotton T-Shirt,Clothing,Tops,10,2024-11-03 00:00:00,21.1,CUST-0088,Belgium
+INV-100624,HOME-001,Coffee Maker,Home & Garden,Kitchen,3,2024-12-23 00:00:00,57.34,CUST-0051,Netherlands
+INV-100625,CLOTH-002,Jeans Classic,Clothing,Bottoms,20,2023-08-13 00:00:00,46.95,CUST-0024,France
+INV-100626,ELEC-004,Bluetooth Speaker,Electronics,Audio,2,2024-05-12 00:00:00,82.5,CUST-0022,Portugal
+INV-100627,ELEC-001,"Laptop Pro 15""",Electronics,Computers,42,2023-11-06 00:00:00,820.56,CUST-0010,Italy
+INV-100628,HOME-001,Coffee Maker,Home & Garden,Kitchen,8,2025-03-27 00:00:00,64.38,CUST-0062,Portugal
+INV-100629,ELEC-002,Wireless Mouse,Electronics,Accessories,34,2025-04-05 00:00:00,31.62,CUST-0023,Portugal
+INV-100630,ELEC-001,"Laptop Pro 15""",Electronics,Computers,23,2025-03-27 00:00:00,861.9,CUST-0028,France
+INV-100631,SPORT-002,Running Shoes,Sports,Footwear,37,2024-06-29 00:00:00,98.22,CUST-0004,Italy
+INV-100632,CLOTH-001,Cotton T-Shirt,Clothing,Tops,35,2024-09-28 00:00:00,19.59,CUST-0027,Italy
+INV-100633,CLOTH-003,Winter Jacket,Clothing,Outerwear,49,2025-03-28 00:00:00,130.95,CUST-0061,Germany
+INV-100634,CLOTH-003,Winter Jacket,Clothing,Outerwear,2,2023-08-15 00:00:00,125.84,CUST-0087,Italy
+INV-100635,CLOTH-001,Cotton T-Shirt,Clothing,Tops,22,2023-11-03 00:00:00,20.78,CUST-0022,UK
+INV-100636,ELEC-002,Wireless Mouse,Electronics,Accessories,45,2024-06-12 00:00:00,29.48,CUST-0042,France
+INV-100637,ELEC-002,Wireless Mouse,Electronics,Accessories,4,2025-03-20 00:00:00,28.78,CUST-0097,Germany
+INV-100638,BOOK-001,Python Programming,Books,Technology,16,2024-03-01 00:00:00,43.97,CUST-0088,Switzerland
+INV-100639,CLOTH-002,Jeans Classic,Clothing,Bottoms,37,2024-06-19 00:00:00,46.39,CUST-0021,Portugal
+INV-100640,SPORT-002,Running Shoes,Sports,Footwear,24,2023-12-07 00:00:00,97.74,CUST-0070,Netherlands
+INV-100641,CLOTH-002,Jeans Classic,Clothing,Bottoms,14,2024-05-15 00:00:00,53.34,CUST-0033,Netherlands
+INV-100642,ELEC-002,Wireless Mouse,Electronics,Accessories,42,2025-01-07 00:00:00,29.69,CUST-0067,France
+INV-100643,SPORT-001,Yoga Mat,Sports,Fitness,47,2024-11-06 00:00:00,24.87,CUST-0088,Germany
+INV-100644,ELEC-001,"Laptop Pro 15""",Electronics,Computers,44,2023-09-05 00:00:00,875.98,CUST-0003,Spain
+INV-100645,ELEC-004,Bluetooth Speaker,Electronics,Audio,15,2024-10-28 00:00:00,82.1,CUST-0029,Belgium
+INV-100646,SPORT-002,Running Shoes,Sports,Footwear,47,2024-08-05 00:00:00,96.76,CUST-0098,Portugal
+INV-100647,HOME-001,Coffee Maker,Home & Garden,Kitchen,38,2025-02-16 00:00:00,65.3,CUST-0023,Austria
+INV-100648,CLOTH-001,Cotton T-Shirt,Clothing,Tops,30,2024-01-10 00:00:00,19.49,CUST-0022,UK
+INV-100649,CLOTH-003,Winter Jacket,Clothing,Outerwear,14,2024-09-03 00:00:00,131.71,CUST-0078,UK
+INV-100650,CLOTH-003,Winter Jacket,Clothing,Outerwear,12,2024-02-23 00:00:00,126.3,CUST-0027,Italy
+INV-100651,BOOK-001,Python Programming,Books,Technology,2,2024-12-15 00:00:00,43.0,CUST-0100,Germany
+INV-100652,HOME-002,Desk Lamp,Home & Garden,Lighting,40,2024-04-27 00:00:00,37.97,CUST-0047,UK
+INV-100653,ELEC-002,Wireless Mouse,Electronics,Accessories,22,2023-11-11 00:00:00,29.76,CUST-0011,Belgium
+INV-100654,SPORT-002,Running Shoes,Sports,Footwear,28,2023-12-15 00:00:00,82.49,CUST-0078,France
+INV-100655,HOME-002,Desk Lamp,Home & Garden,Lighting,35,2025-04-15 00:00:00,32.55,CUST-0099,France
+INV-100656,SPORT-001,Yoga Mat,Sports,Fitness,4,2025-04-14 00:00:00,23.84,CUST-0043,Netherlands
+INV-100657,CLOTH-003,Winter Jacket,Clothing,Outerwear,27,2023-08-30 00:00:00,130.55,CUST-0053,Portugal
+INV-100658,ELEC-003,USB-C Cable,Electronics,Accessories,22,2024-08-19 00:00:00,13.38,CUST-0087,Spain
+INV-100659,ELEC-002,Wireless Mouse,Electronics,Accessories,25,2024-12-27 00:00:00,27.92,CUST-0076,Switzerland
+INV-100660,ELEC-002,Wireless Mouse,Electronics,Accessories,8,2025-02-26 00:00:00,31.56,CUST-0057,Netherlands
+INV-100661,ELEC-003,USB-C Cable,Electronics,Accessories,29,2024-07-13 00:00:00,13.35,CUST-0053,Spain
+INV-100662,SPORT-002,Running Shoes,Sports,Footwear,27,2025-05-29 00:00:00,82.51,CUST-0019,Italy
+INV-100663,HOME-001,Coffee Maker,Home & Garden,Kitchen,26,2024-09-22 00:00:00,64.49,CUST-0078,Germany
+INV-100664,ELEC-004,Bluetooth Speaker,Electronics,Audio,13,2025-02-25 00:00:00,81.66,CUST-0051,France
+INV-100665,BOOK-001,Python Programming,Books,Technology,28,2025-03-08 00:00:00,38.34,CUST-0087,Germany
+INV-100666,BOOK-001,Python Programming,Books,Technology,4,2024-03-04 00:00:00,38.67,CUST-0070,France
+INV-100667,CLOTH-003,Winter Jacket,Clothing,Outerwear,14,2023-11-07 00:00:00,128.23,CUST-0078,Germany
+INV-100668,SPORT-001,Yoga Mat,Sports,Fitness,11,2024-07-19 00:00:00,25.74,CUST-0074,Spain
+INV-100669,SPORT-002,Running Shoes,Sports,Footwear,8,2024-02-01 00:00:00,82.63,CUST-0039,Portugal
+INV-100670,HOME-001,Coffee Maker,Home & Garden,Kitchen,2,2024-10-09 00:00:00,64.51,CUST-0069,Switzerland
+INV-100671,ELEC-004,Bluetooth Speaker,Electronics,Audio,17,2025-04-30 00:00:00,74.28,CUST-0006,France
+INV-100672,CLOTH-003,Winter Jacket,Clothing,Outerwear,40,2025-01-24 00:00:00,131.62,CUST-0063,Portugal
+INV-100673,BOOK-001,Python Programming,Books,Technology,3,2024-09-20 00:00:00,40.3,CUST-0080,Portugal
+INV-100674,ELEC-004,Bluetooth Speaker,Electronics,Audio,14,2025-03-11 00:00:00,86.14,CUST-0099,Netherlands
+INV-100675,CLOTH-002,Jeans Classic,Clothing,Bottoms,15,2024-05-25 00:00:00,47.3,CUST-0087,Portugal
+INV-100676,ELEC-002,Wireless Mouse,Electronics,Accessories,14,2025-03-07 00:00:00,29.06,CUST-0023,Germany
+INV-100677,SPORT-002,Running Shoes,Sports,Footwear,46,2024-07-15 00:00:00,98.93,CUST-0100,Germany
+INV-100678,HOME-002,Desk Lamp,Home & Garden,Lighting,9,2023-12-10 00:00:00,37.43,CUST-0064,Portugal
+INV-100679,HOME-002,Desk Lamp,Home & Garden,Lighting,8,2024-03-21 00:00:00,31.68,CUST-0074,Italy
+INV-100680,HOME-002,Desk Lamp,Home & Garden,Lighting,12,2023-12-23 00:00:00,34.41,CUST-0092,Switzerland
+INV-100681,CLOTH-002,Jeans Classic,Clothing,Bottoms,27,2023-12-14 00:00:00,50.48,CUST-0003,France
+INV-100682,HOME-001,Coffee Maker,Home & Garden,Kitchen,3,2023-08-23 00:00:00,57.28,CUST-0079,Portugal
+INV-100683,BOOK-001,Python Programming,Books,Technology,49,2024-12-04 00:00:00,36.7,CUST-0005,Italy
+INV-100684,HOME-001,Coffee Maker,Home & Garden,Kitchen,38,2025-02-11 00:00:00,62.05,CUST-0005,UK
+INV-100685,BOOK-001,Python Programming,Books,Technology,22,2024-11-04 00:00:00,42.5,CUST-0037,Austria
+INV-100686,ELEC-003,USB-C Cable,Electronics,Accessories,11,2023-09-10 00:00:00,12.97,CUST-0056,Belgium
+INV-100687,BOOK-001,Python Programming,Books,Technology,24,2024-08-12 00:00:00,41.33,CUST-0075,Netherlands
+INV-100688,SPORT-002,Running Shoes,Sports,Footwear,9,2025-03-24 00:00:00,93.84,CUST-0002,Portugal
+INV-100689,HOME-001,Coffee Maker,Home & Garden,Kitchen,27,2023-12-07 00:00:00,59.63,CUST-0044,Switzerland
+INV-100690,ELEC-002,Wireless Mouse,Electronics,Accessories,34,2024-03-14 00:00:00,30.32,CUST-0004,UK
+INV-100691,SPORT-002,Running Shoes,Sports,Footwear,28,2023-11-03 00:00:00,90.05,CUST-0074,Belgium
+INV-100692,BOOK-001,Python Programming,Books,Technology,8,2024-10-30 00:00:00,42.62,CUST-0076,Portugal
+INV-100693,HOME-002,Desk Lamp,Home & Garden,Lighting,3,2025-07-13 00:00:00,31.85,CUST-0089,Switzerland
+INV-100694,ELEC-002,Wireless Mouse,Electronics,Accessories,16,2024-12-16 00:00:00,29.72,CUST-0053,France
+INV-100695,HOME-002,Desk Lamp,Home & Garden,Lighting,42,2023-12-02 00:00:00,31.76,CUST-0073,Switzerland
+INV-100696,SPORT-002,Running Shoes,Sports,Footwear,37,2024-04-06 00:00:00,82.13,CUST-0028,Netherlands
+INV-100697,HOME-002,Desk Lamp,Home & Garden,Lighting,11,2024-04-08 00:00:00,35.71,CUST-0022,Switzerland
+INV-100698,BOOK-001,Python Programming,Books,Technology,9,2025-07-20 00:00:00,36.3,CUST-0005,UK
+INV-100699,ELEC-004,Bluetooth Speaker,Electronics,Audio,29,2025-05-12 00:00:00,81.5,CUST-0013,UK
+INV-100700,BOOK-001,Python Programming,Books,Technology,10,2023-12-30 00:00:00,42.65,CUST-0023,Italy
+INV-100701,CLOTH-002,Jeans Classic,Clothing,Bottoms,48,2024-01-24 00:00:00,49.25,CUST-0087,Spain
+INV-100702,ELEC-002,Wireless Mouse,Electronics,Accessories,41,2023-12-01 00:00:00,27.19,CUST-0082,Portugal
+INV-100703,CLOTH-001,Cotton T-Shirt,Clothing,Tops,29,2025-05-24 00:00:00,20.49,CUST-0099,Germany
+INV-100704,SPORT-002,Running Shoes,Sports,Footwear,3,2024-05-13 00:00:00,82.97,CUST-0078,Italy
+INV-100705,HOME-002,Desk Lamp,Home & Garden,Lighting,40,2024-12-14 00:00:00,35.36,CUST-0086,Italy
+INV-100706,ELEC-002,Wireless Mouse,Electronics,Accessories,3,2023-11-21 00:00:00,29.91,CUST-0013,UK
+INV-100707,ELEC-001,"Laptop Pro 15""",Electronics,Computers,32,2024-11-03 00:00:00,846.88,CUST-0012,Italy
+INV-100708,BOOK-001,Python Programming,Books,Technology,22,2025-04-04 00:00:00,43.07,CUST-0003,Spain
+INV-100709,CLOTH-003,Winter Jacket,Clothing,Outerwear,22,2025-01-08 00:00:00,135.94,CUST-0027,UK
+INV-100710,ELEC-002,Wireless Mouse,Electronics,Accessories,9,2024-02-05 00:00:00,27.4,CUST-0073,Austria
+INV-100711,ELEC-004,Bluetooth Speaker,Electronics,Audio,24,2025-02-18 00:00:00,74.62,CUST-0078,Netherlands
+INV-100712,ELEC-004,Bluetooth Speaker,Electronics,Audio,36,2024-02-28 00:00:00,83.27,CUST-0071,UK
+INV-100713,CLOTH-001,Cotton T-Shirt,Clothing,Tops,15,2025-08-06 00:00:00,21.79,CUST-0013,UK
+INV-100714,ELEC-001,"Laptop Pro 15""",Electronics,Computers,23,2025-03-21 00:00:00,812.78,CUST-0074,Spain
+INV-100715,CLOTH-003,Winter Jacket,Clothing,Outerwear,32,2025-08-01 00:00:00,136.41,CUST-0066,Portugal
+INV-100716,CLOTH-002,Jeans Classic,Clothing,Bottoms,16,2023-11-20 00:00:00,51.88,CUST-0034,France
+INV-100717,ELEC-002,Wireless Mouse,Electronics,Accessories,17,2024-01-13 00:00:00,27.85,CUST-0080,Italy
+INV-100718,ELEC-001,"Laptop Pro 15""",Electronics,Computers,4,2024-01-26 00:00:00,826.75,CUST-0092,Spain
+INV-100719,HOME-001,Coffee Maker,Home & Garden,Kitchen,23,2025-05-27 00:00:00,57.39,CUST-0055,Belgium
+INV-100720,SPORT-002,Running Shoes,Sports,Footwear,31,2025-06-08 00:00:00,81.23,CUST-0080,Belgium
+INV-100721,CLOTH-001,Cotton T-Shirt,Clothing,Tops,16,2024-10-21 00:00:00,21.13,CUST-0029,Italy
+INV-100722,CLOTH-002,Jeans Classic,Clothing,Bottoms,40,2023-11-24 00:00:00,50.92,CUST-0044,Spain
+INV-100723,CLOTH-001,Cotton T-Shirt,Clothing,Tops,22,2025-03-27 00:00:00,21.91,CUST-0086,Belgium
+INV-100724,SPORT-001,Yoga Mat,Sports,Fitness,32,2024-05-07 00:00:00,25.0,CUST-0075,Switzerland
+INV-100725,ELEC-001,"Laptop Pro 15""",Electronics,Computers,14,2025-03-02 00:00:00,908.32,CUST-0020,Spain
+INV-100726,CLOTH-001,Cotton T-Shirt,Clothing,Tops,34,2025-05-23 00:00:00,18.79,CUST-0094,Switzerland
+INV-100727,CLOTH-001,Cotton T-Shirt,Clothing,Tops,44,2024-07-06 00:00:00,19.92,CUST-0043,UK
+INV-100728,CLOTH-001,Cotton T-Shirt,Clothing,Tops,22,2023-10-27 00:00:00,20.52,CUST-0068,Austria
+INV-100729,ELEC-001,"Laptop Pro 15""",Electronics,Computers,33,2024-10-22 00:00:00,816.9,CUST-0026,Germany
+INV-100730,ELEC-003,USB-C Cable,Electronics,Accessories,24,2025-07-14 00:00:00,11.73,CUST-0079,Germany
+INV-100731,ELEC-003,USB-C Cable,Electronics,Accessories,48,2023-12-05 00:00:00,13.32,CUST-0076,UK
+INV-100732,HOME-002,Desk Lamp,Home & Garden,Lighting,30,2024-03-12 00:00:00,31.62,CUST-0098,Germany
+INV-100733,ELEC-004,Bluetooth Speaker,Electronics,Audio,37,2024-08-14 00:00:00,72.72,CUST-0092,Austria
+INV-100734,CLOTH-003,Winter Jacket,Clothing,Outerwear,4,2025-02-16 00:00:00,137.46,CUST-0088,Austria
+INV-100735,HOME-001,Coffee Maker,Home & Garden,Kitchen,24,2024-11-29 00:00:00,64.02,CUST-0093,Spain
+INV-100736,CLOTH-001,Cotton T-Shirt,Clothing,Tops,9,2025-05-10 00:00:00,21.42,CUST-0077,Belgium
+INV-100737,ELEC-003,USB-C Cable,Electronics,Accessories,37,2023-11-07 00:00:00,11.78,CUST-0032,Portugal
+INV-100738,HOME-002,Desk Lamp,Home & Garden,Lighting,19,2024-05-18 00:00:00,33.87,CUST-0062,Germany
+INV-100739,ELEC-003,USB-C Cable,Electronics,Accessories,16,2025-06-15 00:00:00,12.83,CUST-0010,UK
+INV-100740,HOME-001,Coffee Maker,Home & Garden,Kitchen,9,2025-02-04 00:00:00,57.2,CUST-0094,Spain
+INV-100741,CLOTH-001,Cotton T-Shirt,Clothing,Tops,26,2024-07-29 00:00:00,21.65,CUST-0027,Belgium
+INV-100742,CLOTH-003,Winter Jacket,Clothing,Outerwear,44,2025-02-01 00:00:00,137.32,CUST-0081,France
+INV-100743,ELEC-002,Wireless Mouse,Electronics,Accessories,6,2025-05-18 00:00:00,31.22,CUST-0012,Belgium
+INV-100744,ELEC-004,Bluetooth Speaker,Electronics,Audio,5,2024-06-12 00:00:00,85.79,CUST-0082,Belgium
+INV-100745,ELEC-003,USB-C Cable,Electronics,Accessories,1,2023-09-04 00:00:00,14.01,CUST-0097,Spain
+INV-100746,HOME-002,Desk Lamp,Home & Garden,Lighting,10,2023-10-07 00:00:00,32.93,CUST-0089,Portugal
+INV-100747,CLOTH-003,Winter Jacket,Clothing,Outerwear,2,2024-08-30 00:00:00,123.85,CUST-0083,UK
+INV-100748,HOME-001,Coffee Maker,Home & Garden,Kitchen,25,2024-01-22 00:00:00,64.55,CUST-0053,Switzerland
+INV-100749,CLOTH-003,Winter Jacket,Clothing,Outerwear,35,2024-09-11 00:00:00,127.79,CUST-0010,Portugal
+INV-100750,HOME-002,Desk Lamp,Home & Garden,Lighting,12,2024-04-11 00:00:00,33.19,CUST-0097,Portugal
+INV-100751,HOME-002,Desk Lamp,Home & Garden,Lighting,11,2024-08-26 00:00:00,34.76,CUST-0046,Portugal
+INV-100752,SPORT-001,Yoga Mat,Sports,Fitness,14,2023-12-18 00:00:00,25.03,CUST-0010,France
+INV-100753,ELEC-003,USB-C Cable,Electronics,Accessories,9,2023-12-27 00:00:00,12.97,CUST-0059,Germany
+INV-100754,ELEC-001,"Laptop Pro 15""",Electronics,Computers,47,2024-04-12 00:00:00,968.92,CUST-0003,UK
+INV-100755,CLOTH-001,Cotton T-Shirt,Clothing,Tops,26,2024-01-19 00:00:00,19.85,CUST-0053,Spain
+INV-100756,ELEC-001,"Laptop Pro 15""",Electronics,Computers,22,2025-06-16 00:00:00,871.29,CUST-0045,France
+INV-100757,ELEC-004,Bluetooth Speaker,Electronics,Audio,21,2023-10-15 00:00:00,86.32,CUST-0046,Austria
+INV-100758,ELEC-003,USB-C Cable,Electronics,Accessories,17,2025-04-19 00:00:00,14.13,CUST-0088,Switzerland
+INV-100759,CLOTH-001,Cotton T-Shirt,Clothing,Tops,47,2024-10-27 00:00:00,20.36,CUST-0091,UK
+INV-100760,CLOTH-003,Winter Jacket,Clothing,Outerwear,31,2023-11-12 00:00:00,133.04,CUST-0096,Spain
+INV-100761,HOME-002,Desk Lamp,Home & Garden,Lighting,5,2023-11-02 00:00:00,36.6,CUST-0039,Spain
+INV-100762,ELEC-001,"Laptop Pro 15""",Electronics,Computers,15,2025-02-03 00:00:00,880.75,CUST-0014,UK
+INV-100763,ELEC-002,Wireless Mouse,Electronics,Accessories,16,2024-03-20 00:00:00,27.12,CUST-0044,Switzerland
+INV-100764,CLOTH-003,Winter Jacket,Clothing,Outerwear,21,2024-07-15 00:00:00,121.46,CUST-0069,Spain
+INV-100765,CLOTH-003,Winter Jacket,Clothing,Outerwear,46,2024-06-03 00:00:00,119.32,CUST-0005,Portugal
+INV-100766,ELEC-003,USB-C Cable,Electronics,Accessories,21,2025-06-17 00:00:00,13.42,CUST-0096,Germany
+INV-100767,SPORT-002,Running Shoes,Sports,Footwear,25,2023-08-21 00:00:00,94.99,CUST-0010,Belgium
+INV-100768,ELEC-001,"Laptop Pro 15""",Electronics,Computers,22,2024-05-19 00:00:00,865.59,CUST-0099,France
+INV-100769,HOME-001,Coffee Maker,Home & Garden,Kitchen,5,2024-12-03 00:00:00,59.04,CUST-0054,Spain
+INV-100770,HOME-002,Desk Lamp,Home & Garden,Lighting,26,2025-05-03 00:00:00,36.77,CUST-0089,France
+INV-100771,ELEC-001,"Laptop Pro 15""",Electronics,Computers,32,2024-03-29 00:00:00,941.68,CUST-0046,France
+INV-100772,CLOTH-001,Cotton T-Shirt,Clothing,Tops,40,2025-02-27 00:00:00,21.11,CUST-0072,Germany
+INV-100773,CLOTH-002,Jeans Classic,Clothing,Bottoms,30,2025-06-08 00:00:00,46.84,CUST-0089,France
+INV-100774,BOOK-001,Python Programming,Books,Technology,45,2024-08-17 00:00:00,36.6,CUST-0029,Germany
+INV-100775,ELEC-004,Bluetooth Speaker,Electronics,Audio,34,2025-01-25 00:00:00,72.78,CUST-0075,Portugal
+INV-100776,CLOTH-001,Cotton T-Shirt,Clothing,Tops,40,2024-05-03 00:00:00,20.55,CUST-0058,Italy
+INV-100777,SPORT-001,Yoga Mat,Sports,Fitness,24,2023-10-10 00:00:00,24.98,CUST-0079,UK
+INV-100778,BOOK-001,Python Programming,Books,Technology,8,2025-04-17 00:00:00,36.15,CUST-0053,Portugal
+INV-100779,ELEC-002,Wireless Mouse,Electronics,Accessories,14,2025-07-10 00:00:00,30.96,CUST-0030,France
+INV-100780,CLOTH-001,Cotton T-Shirt,Clothing,Tops,21,2024-04-12 00:00:00,20.98,CUST-0058,Netherlands
+INV-100781,ELEC-004,Bluetooth Speaker,Electronics,Audio,19,2024-11-12 00:00:00,84.93,CUST-0009,Belgium
+INV-100782,ELEC-003,USB-C Cable,Electronics,Accessories,35,2023-09-08 00:00:00,11.84,CUST-0033,Netherlands
+INV-100783,HOME-001,Coffee Maker,Home & Garden,Kitchen,41,2025-02-10 00:00:00,60.2,CUST-0064,Belgium
+INV-100784,ELEC-003,USB-C Cable,Electronics,Accessories,17,2023-10-28 00:00:00,12.17,CUST-0088,Portugal
+INV-100785,BOOK-001,Python Programming,Books,Technology,42,2023-08-31 00:00:00,36.25,CUST-0018,France
+INV-100786,ELEC-001,"Laptop Pro 15""",Electronics,Computers,22,2023-10-18 00:00:00,974.23,CUST-0016,Spain
+INV-100787,ELEC-003,USB-C Cable,Electronics,Accessories,23,2025-03-19 00:00:00,12.66,CUST-0012,Germany
+INV-100788,HOME-001,Coffee Maker,Home & Garden,Kitchen,45,2024-03-26 00:00:00,62.32,CUST-0086,France
+INV-100789,BOOK-001,Python Programming,Books,Technology,33,2023-12-28 00:00:00,39.57,CUST-0033,Belgium
+INV-100790,BOOK-001,Python Programming,Books,Technology,16,2024-10-03 00:00:00,42.92,CUST-0044,Portugal
+INV-100791,BOOK-001,Python Programming,Books,Technology,35,2024-09-28 00:00:00,40.18,CUST-0049,Netherlands
+INV-100792,ELEC-001,"Laptop Pro 15""",Electronics,Computers,47,2024-08-21 00:00:00,891.25,CUST-0029,Switzerland
+INV-100793,CLOTH-003,Winter Jacket,Clothing,Outerwear,45,2025-01-03 00:00:00,119.06,CUST-0022,Belgium
+INV-100794,ELEC-001,"Laptop Pro 15""",Electronics,Computers,8,2025-08-10 00:00:00,900.19,CUST-0005,UK
+INV-100795,SPORT-001,Yoga Mat,Sports,Fitness,27,2023-09-28 00:00:00,26.42,CUST-0092,Germany
+INV-100796,CLOTH-001,Cotton T-Shirt,Clothing,Tops,9,2024-05-05 00:00:00,20.05,CUST-0045,Belgium
+INV-100797,SPORT-001,Yoga Mat,Sports,Fitness,50,2024-11-17 00:00:00,26.75,CUST-0018,Germany
+INV-100798,ELEC-001,"Laptop Pro 15""",Electronics,Computers,35,2025-06-25 00:00:00,843.54,CUST-0083,Netherlands
+INV-100799,ELEC-004,Bluetooth Speaker,Electronics,Audio,26,2024-09-22 00:00:00,84.97,CUST-0036,Spain
+INV-100800,BOOK-001,Python Programming,Books,Technology,49,2025-01-10 00:00:00,43.68,CUST-0058,Switzerland
+INV-100801,ELEC-004,Bluetooth Speaker,Electronics,Audio,47,2024-07-03 00:00:00,79.16,CUST-0096,UK
+INV-100802,ELEC-004,Bluetooth Speaker,Electronics,Audio,30,2024-09-22 00:00:00,82.5,CUST-0063,Germany
+INV-100803,BOOK-001,Python Programming,Books,Technology,35,2025-01-19 00:00:00,43.66,CUST-0070,Spain
+INV-100804,BOOK-001,Python Programming,Books,Technology,41,2025-01-11 00:00:00,42.78,CUST-0051,Portugal
+INV-100805,CLOTH-001,Cotton T-Shirt,Clothing,Tops,1,2025-05-04 00:00:00,19.07,CUST-0068,UK
+INV-100806,SPORT-002,Running Shoes,Sports,Footwear,9,2025-03-20 00:00:00,82.91,CUST-0030,Portugal
+INV-100807,CLOTH-001,Cotton T-Shirt,Clothing,Tops,3,2024-11-17 00:00:00,20.07,CUST-0046,Belgium
+INV-100808,HOME-001,Coffee Maker,Home & Garden,Kitchen,26,2024-05-29 00:00:00,59.97,CUST-0081,Italy
+INV-100809,SPORT-001,Yoga Mat,Sports,Fitness,49,2024-02-13 00:00:00,24.13,CUST-0079,UK
+INV-100810,ELEC-004,Bluetooth Speaker,Electronics,Audio,21,2024-03-28 00:00:00,87.7,CUST-0015,France
+INV-100811,HOME-002,Desk Lamp,Home & Garden,Lighting,25,2025-03-26 00:00:00,37.31,CUST-0047,Portugal
+INV-100812,BOOK-001,Python Programming,Books,Technology,18,2025-03-28 00:00:00,40.75,CUST-0032,Italy
+INV-100813,ELEC-004,Bluetooth Speaker,Electronics,Audio,15,2024-03-18 00:00:00,85.21,CUST-0080,France
+INV-100814,ELEC-003,USB-C Cable,Electronics,Accessories,49,2024-06-22 00:00:00,13.21,CUST-0034,Portugal
+INV-100815,ELEC-003,USB-C Cable,Electronics,Accessories,15,2025-01-31 00:00:00,11.97,CUST-0051,Austria
+INV-100816,CLOTH-003,Winter Jacket,Clothing,Outerwear,3,2023-10-26 00:00:00,137.34,CUST-0038,Germany
+INV-100817,ELEC-003,USB-C Cable,Electronics,Accessories,15,2024-06-18 00:00:00,11.7,CUST-0044,Netherlands
+INV-100818,ELEC-004,Bluetooth Speaker,Electronics,Audio,48,2024-02-15 00:00:00,78.04,CUST-0079,Portugal
+INV-100819,BOOK-001,Python Programming,Books,Technology,2,2024-03-01 00:00:00,36.95,CUST-0080,Italy
+INV-100820,CLOTH-001,Cotton T-Shirt,Clothing,Tops,41,2024-02-29 00:00:00,20.71,CUST-0093,Belgium
+INV-100821,ELEC-002,Wireless Mouse,Electronics,Accessories,24,2024-12-04 00:00:00,29.34,CUST-0064,Portugal
+INV-100822,HOME-001,Coffee Maker,Home & Garden,Kitchen,29,2025-01-12 00:00:00,57.98,CUST-0027,Netherlands
+INV-100823,ELEC-004,Bluetooth Speaker,Electronics,Audio,25,2024-01-16 00:00:00,79.03,CUST-0073,Switzerland
+INV-100824,SPORT-001,Yoga Mat,Sports,Fitness,15,2024-10-16 00:00:00,22.51,CUST-0038,Netherlands
+INV-100825,ELEC-001,"Laptop Pro 15""",Electronics,Computers,1,2025-06-07 00:00:00,913.11,CUST-0049,Switzerland
+INV-100826,CLOTH-002,Jeans Classic,Clothing,Bottoms,22,2024-05-04 00:00:00,50.14,CUST-0072,Italy
+INV-100827,CLOTH-001,Cotton T-Shirt,Clothing,Tops,50,2024-07-25 00:00:00,21.58,CUST-0065,Spain
+INV-100828,HOME-002,Desk Lamp,Home & Garden,Lighting,3,2025-02-02 00:00:00,33.62,CUST-0002,France
+INV-100829,BOOK-001,Python Programming,Books,Technology,44,2024-12-06 00:00:00,39.38,CUST-0034,Italy
+INV-100830,HOME-001,Coffee Maker,Home & Garden,Kitchen,37,2024-06-14 00:00:00,60.33,CUST-0081,Switzerland
+INV-100831,ELEC-004,Bluetooth Speaker,Electronics,Audio,13,2025-07-19 00:00:00,80.38,CUST-0076,Spain
+INV-100832,HOME-001,Coffee Maker,Home & Garden,Kitchen,47,2024-02-11 00:00:00,55.2,CUST-0032,Netherlands
+INV-100833,CLOTH-003,Winter Jacket,Clothing,Outerwear,20,2024-08-01 00:00:00,142.32,CUST-0070,France
+INV-100834,CLOTH-003,Winter Jacket,Clothing,Outerwear,17,2023-09-07 00:00:00,119.74,CUST-0034,Italy
+INV-100835,BOOK-001,Python Programming,Books,Technology,47,2024-10-06 00:00:00,0.0,CUST-0030,Italy
+INV-100836,CLOTH-003,Winter Jacket,Clothing,Outerwear,6,2024-11-23 00:00:00,124.29,CUST-0044,France
+INV-100837,ELEC-002,Wireless Mouse,Electronics,Accessories,14,2024-05-10 00:00:00,28.02,CUST-0098,Austria
+INV-100838,ELEC-004,Bluetooth Speaker,Electronics,Audio,27,2024-11-16 00:00:00,72.1,CUST-0012,Switzerland
+INV-100839,CLOTH-001,Cotton T-Shirt,Clothing,Tops,33,2024-06-19 00:00:00,19.95,CUST-0039,UK
+INV-100840,CLOTH-003,Winter Jacket,Clothing,Outerwear,37,2025-04-17 00:00:00,0.0,CUST-0071,Netherlands
+INV-100841,SPORT-002,Running Shoes,Sports,Footwear,36,2023-11-13 00:00:00,82.21,CUST-0098,Netherlands
+INV-100842,CLOTH-002,Jeans Classic,Clothing,Bottoms,9,2024-12-21 00:00:00,54.12,CUST-0050,UK
+INV-100843,ELEC-003,USB-C Cable,Electronics,Accessories,12,2023-10-11 00:00:00,12.36,CUST-0051,Austria
+INV-100844,SPORT-001,Yoga Mat,Sports,Fitness,5,2025-03-05 00:00:00,27.04,CUST-0034,UK
+INV-100845,HOME-001,Coffee Maker,Home & Garden,Kitchen,37,2023-12-23 00:00:00,57.78,CUST-0013,Austria
+INV-100846,SPORT-002,Running Shoes,Sports,Footwear,3,2024-08-22 00:00:00,91.08,CUST-0038,UK
+INV-100847,CLOTH-001,Cotton T-Shirt,Clothing,Tops,19,2024-05-04 00:00:00,18.15,CUST-0051,Netherlands
+INV-100848,ELEC-001,"Laptop Pro 15""",Electronics,Computers,19,2025-01-17 00:00:00,988.28,CUST-0092,Spain
+INV-100849,BOOK-001,Python Programming,Books,Technology,17,2025-03-06 00:00:00,36.79,CUST-0080,Belgium
+INV-100850,ELEC-004,Bluetooth Speaker,Electronics,Audio,42,2024-04-22 00:00:00,85.68,CUST-0017,Netherlands
+INV-100851,ELEC-001,"Laptop Pro 15""",Electronics,Computers,27,2024-05-13 00:00:00,959.7,CUST-0058,Belgium
+INV-100852,BOOK-001,Python Programming,Books,Technology,18,2024-11-18 00:00:00,42.52,CUST-0054,France
+INV-100853,CLOTH-003,Winter Jacket,Clothing,Outerwear,47,2023-12-02 00:00:00,120.47,CUST-0014,Germany
+INV-100854,SPORT-002,Running Shoes,Sports,Footwear,20,2023-09-04 00:00:00,83.75,CUST-0077,Germany
+INV-100855,CLOTH-002,Jeans Classic,Clothing,Bottoms,5,2024-06-17 00:00:00,52.25,CUST-0028,Germany
+INV-100856,CLOTH-001,Cotton T-Shirt,Clothing,Tops,37,2024-01-02 00:00:00,18.88,CUST-0065,Austria
+INV-100857,SPORT-001,Yoga Mat,Sports,Fitness,30,2023-11-02 00:00:00,25.42,CUST-0059,Italy
+INV-100858,CLOTH-002,Jeans Classic,Clothing,Bottoms,36,2025-03-31 00:00:00,45.08,CUST-0072,Switzerland
+INV-100859,ELEC-004,Bluetooth Speaker,Electronics,Audio,16,2024-05-15 00:00:00,84.8,CUST-0099,Spain
+INV-100860,ELEC-004,Bluetooth Speaker,Electronics,Audio,2,2024-12-23 00:00:00,84.73,CUST-0025,Spain
+INV-100861,CLOTH-003,Winter Jacket,Clothing,Outerwear,8,2025-07-24 00:00:00,125.95,CUST-0060,Italy
+INV-100862,ELEC-001,"Laptop Pro 15""",Electronics,Computers,36,2023-10-20 00:00:00,849.02,CUST-0077,Netherlands
+INV-100863,HOME-002,Desk Lamp,Home & Garden,Lighting,46,2024-03-23 00:00:00,35.17,CUST-0034,France
+INV-100864,ELEC-002,Wireless Mouse,Electronics,Accessories,11,2025-07-16 00:00:00,29.52,CUST-0002,Austria
+INV-100865,CLOTH-003,Winter Jacket,Clothing,Outerwear,22,2025-05-02 00:00:00,124.11,CUST-0084,Belgium
+INV-100866,ELEC-003,USB-C Cable,Electronics,Accessories,-5,2024-03-30 00:00:00,13.77,CUST-0004,Portugal
+INV-100867,ELEC-001,"Laptop Pro 15""",Electronics,Computers,23,2025-06-21 00:00:00,974.02,CUST-0033,Italy
+INV-100868,ELEC-003,USB-C Cable,Electronics,Accessories,46,2023-09-13 00:00:00,13.19,CUST-0038,France
+INV-100869,CLOTH-003,Winter Jacket,Clothing,Outerwear,13,2023-08-29 00:00:00,131.87,CUST-0031,Germany
+INV-100870,ELEC-001,"Laptop Pro 15""",Electronics,Computers,12,2024-04-12 00:00:00,931.2,CUST-0014,Italy
+INV-100871,ELEC-001,"Laptop Pro 15""",Electronics,Computers,32,2024-09-02 00:00:00,862.65,CUST-0059,Belgium
+INV-100872,BOOK-001,Python Programming,Books,Technology,48,2025-07-31 00:00:00,43.14,CUST-0099,Belgium
+INV-100873,ELEC-001,"Laptop Pro 15""",Electronics,Computers,36,2024-03-01 00:00:00,888.54,CUST-0010,Switzerland
+INV-100874,ELEC-001,"Laptop Pro 15""",Electronics,Computers,4,2025-04-18 00:00:00,937.89,CUST-0067,Portugal
+INV-100875,CLOTH-001,Cotton T-Shirt,Clothing,Tops,30,2025-08-02 00:00:00,19.09,CUST-0095,Germany
+INV-100876,HOME-001,Coffee Maker,Home & Garden,Kitchen,40,2024-04-05 00:00:00,60.09,CUST-0001,Italy
+INV-100877,SPORT-002,Running Shoes,Sports,Footwear,41,2024-01-16 00:00:00,91.04,CUST-0024,Portugal
+INV-100878,ELEC-002,Wireless Mouse,Electronics,Accessories,22,2024-03-12 00:00:00,29.62,CUST-0043,Belgium
+INV-100879,BOOK-001,Python Programming,Books,Technology,49,2024-01-27 00:00:00,38.3,CUST-0055,Spain
+INV-100880,SPORT-001,Yoga Mat,Sports,Fitness,26,2024-10-30 00:00:00,25.78,CUST-0095,Austria
+INV-100881,SPORT-002,Running Shoes,Sports,Footwear,13,2024-12-18 00:00:00,83.26,CUST-0002,UK
+INV-100882,BOOK-001,Python Programming,Books,Technology,39,2024-05-03 00:00:00,38.99,CUST-0089,Portugal
+INV-100883,BOOK-001,Python Programming,Books,Technology,15,2025-06-08 00:00:00,37.32,CUST-0046,Spain
+INV-100884,ELEC-002,Wireless Mouse,Electronics,Accessories,32,2025-01-30 00:00:00,30.58,CUST-0035,Belgium
+INV-100885,ELEC-004,Bluetooth Speaker,Electronics,Audio,8,2024-10-15 00:00:00,82.89,CUST-0082,Netherlands
+INV-100886,BOOK-001,Python Programming,Books,Technology,23,2024-09-15 00:00:00,40.51,CUST-0059,Germany
+INV-100887,ELEC-001,"Laptop Pro 15""",Electronics,Computers,29,2024-11-23 00:00:00,815.9,CUST-0019,Belgium
+INV-100888,SPORT-001,Yoga Mat,Sports,Fitness,46,2023-08-25 00:00:00,26.59,CUST-0063,Spain
+INV-100889,CLOTH-002,Jeans Classic,Clothing,Bottoms,17,2024-11-30 00:00:00,50.84,CUST-0030,Germany
+INV-100890,HOME-002,Desk Lamp,Home & Garden,Lighting,27,2025-04-01 00:00:00,33.99,CUST-0035,Switzerland
+INV-100891,HOME-002,Desk Lamp,Home & Garden,Lighting,48,2023-08-21 00:00:00,33.99,CUST-0056,Netherlands
+INV-100892,CLOTH-001,Cotton T-Shirt,Clothing,Tops,45,2025-05-14 00:00:00,21.2,CUST-0056,Austria
+INV-100893,ELEC-001,"Laptop Pro 15""",Electronics,Computers,39,2024-05-06 00:00:00,965.5,CUST-0089,Belgium
+INV-100894,SPORT-001,Yoga Mat,Sports,Fitness,13,2024-12-19 00:00:00,23.51,CUST-0018,Spain
+INV-100895,HOME-002,Desk Lamp,Home & Garden,Lighting,49,2025-02-01 00:00:00,34.77,CUST-0062,Italy
+INV-100896,BOOK-001,Python Programming,Books,Technology,20,2023-12-24 00:00:00,41.8,CUST-0040,UK
+INV-100897,SPORT-001,Yoga Mat,Sports,Fitness,38,2024-11-21 00:00:00,24.62,CUST-0034,Germany
+INV-100898,HOME-001,Coffee Maker,Home & Garden,Kitchen,28,2023-11-21 00:00:00,65.5,CUST-0063,Belgium
+INV-100899,BOOK-001,Python Programming,Books,Technology,4,2023-10-18 00:00:00,37.98,CUST-0033,UK
+INV-100900,ELEC-001,"Laptop Pro 15""",Electronics,Computers,41,2024-02-09 00:00:00,947.56,CUST-0035,Germany
+INV-100901,ELEC-004,Bluetooth Speaker,Electronics,Audio,10,2025-01-01 00:00:00,85.37,CUST-0087,Italy
+INV-100902,ELEC-003,USB-C Cable,Electronics,Accessories,17,2024-12-12 00:00:00,11.76,CUST-0021,Austria
+INV-100903,ELEC-002,Wireless Mouse,Electronics,Accessories,21,2024-06-04 00:00:00,32.63,CUST-0052,Austria
+INV-100904,CLOTH-001,Cotton T-Shirt,Clothing,Tops,11,2025-06-19 00:00:00,20.57,CUST-0082,Belgium
+INV-100905,BOOK-001,Python Programming,Books,Technology,14,2025-05-26 00:00:00,38.19,CUST-0049,Netherlands
+INV-100906,BOOK-001,Python Programming,Books,Technology,6,2023-09-11 00:00:00,37.64,CUST-0050,Austria
+INV-100907,ELEC-004,Bluetooth Speaker,Electronics,Audio,13,2024-07-06 00:00:00,79.49,CUST-0089,Netherlands
+INV-100908,SPORT-002,Running Shoes,Sports,Footwear,48,2024-03-04 00:00:00,81.81,CUST-0056,Switzerland
+INV-100909,SPORT-001,Yoga Mat,Sports,Fitness,18,2024-05-12 00:00:00,26.74,CUST-0087,Austria
+INV-100910,ELEC-001,"Laptop Pro 15""",Electronics,Computers,14,2025-03-31 00:00:00,887.86,CUST-0085,France
+INV-100911,ELEC-003,USB-C Cable,Electronics,Accessories,10,2024-12-10 00:00:00,13.46,CUST-0077,Netherlands
+INV-100912,SPORT-002,Running Shoes,Sports,Footwear,27,2024-05-28 00:00:00,83.89,CUST-0039,Belgium
+INV-100913,ELEC-002,Wireless Mouse,Electronics,Accessories,40,2024-07-27 00:00:00,30.59,CUST-0026,Netherlands
+INV-100914,CLOTH-001,Cotton T-Shirt,Clothing,Tops,4,2024-01-30 00:00:00,18.07,CUST-0046,Netherlands
+INV-100915,ELEC-002,Wireless Mouse,Electronics,Accessories,17,2024-03-08 00:00:00,27.53,CUST-0063,Germany
+INV-100916,HOME-002,Desk Lamp,Home & Garden,Lighting,32,2024-06-28 00:00:00,33.2,CUST-0005,UK
+INV-100917,ELEC-003,USB-C Cable,Electronics,Accessories,49,2024-02-21 00:00:00,13.67,CUST-0097,France
+INV-100918,SPORT-002,Running Shoes,Sports,Footwear,13,2024-02-11 00:00:00,87.37,CUST-0094,Switzerland
+INV-100919,HOME-002,Desk Lamp,Home & Garden,Lighting,41,2024-07-03 00:00:00,38.11,CUST-0083,Germany
+INV-100920,CLOTH-003,Winter Jacket,Clothing,Outerwear,3,2024-08-13 00:00:00,123.25,CUST-0079,Portugal
+INV-100921,ELEC-003,USB-C Cable,Electronics,Accessories,47,2025-06-25 00:00:00,12.52,CUST-0084,Germany
+INV-100922,SPORT-001,Yoga Mat,Sports,Fitness,9,2024-04-24 00:00:00,26.27,CUST-0037,UK
+INV-100923,ELEC-001,"Laptop Pro 15""",Electronics,Computers,33,2025-06-09 00:00:00,962.35,CUST-0042,Switzerland
+INV-100924,HOME-001,Coffee Maker,Home & Garden,Kitchen,21,2024-06-14 00:00:00,61.25,CUST-0073,Austria
+INV-100925,HOME-001,Coffee Maker,Home & Garden,Kitchen,32,2024-12-02 00:00:00,63.06,CUST-0060,Germany
+INV-100926,HOME-002,Desk Lamp,Home & Garden,Lighting,44,2025-01-27 00:00:00,34.15,CUST-0098,Belgium
+INV-100927,ELEC-004,Bluetooth Speaker,Electronics,Audio,9,2025-04-10 00:00:00,78.12,CUST-0005,Netherlands
+INV-100928,CLOTH-003,Winter Jacket,Clothing,Outerwear,11,2023-09-09 00:00:00,134.48,CUST-0008,Germany
+INV-100929,HOME-001,Coffee Maker,Home & Garden,Kitchen,7,2025-03-03 00:00:00,65.93,CUST-0079,Italy
+INV-100930,ELEC-004,Bluetooth Speaker,Electronics,Audio,4,2023-10-30 00:00:00,79.24,CUST-0072,Portugal
+INV-100931,ELEC-004,Bluetooth Speaker,Electronics,Audio,17,2023-12-26 00:00:00,73.37,CUST-0003,Germany
+INV-100932,HOME-001,Coffee Maker,Home & Garden,Kitchen,5,2025-04-29 00:00:00,58.09,CUST-0022,Portugal
+INV-100933,SPORT-001,Yoga Mat,Sports,Fitness,32,2024-10-29 00:00:00,25.74,CUST-0093,Germany
+INV-100934,CLOTH-001,Cotton T-Shirt,Clothing,Tops,26,2025-03-28 00:00:00,19.36,CUST-0052,Belgium
+INV-100935,SPORT-001,Yoga Mat,Sports,Fitness,18,2025-06-02 00:00:00,26.91,CUST-0024,Netherlands
+INV-100936,ELEC-004,Bluetooth Speaker,Electronics,Audio,27,2025-06-28 00:00:00,87.75,CUST-0079,Austria
+INV-100937,ELEC-004,Bluetooth Speaker,Electronics,Audio,2,2024-03-26 00:00:00,79.56,CUST-0050,UK
+INV-100938,SPORT-002,Running Shoes,Sports,Footwear,5,2023-10-28 00:00:00,88.89,CUST-0002,Netherlands
+INV-100939,CLOTH-002,Jeans Classic,Clothing,Bottoms,15,2023-12-16 00:00:00,51.34,CUST-0030,Austria
+INV-100940,BOOK-001,Python Programming,Books,Technology,31,2024-12-30 00:00:00,38.13,CUST-0077,Switzerland
+INV-100941,ELEC-001,"Laptop Pro 15""",Electronics,Computers,38,2024-12-28 00:00:00,839.19,CUST-0072,Portugal
+INV-100942,CLOTH-002,Jeans Classic,Clothing,Bottoms,18,2024-12-27 00:00:00,52.75,CUST-0056,Belgium
+INV-100943,ELEC-002,Wireless Mouse,Electronics,Accessories,49,2023-10-08 00:00:00,32.69,CUST-0038,France
+INV-100944,BOOK-001,Python Programming,Books,Technology,34,2025-06-01 00:00:00,39.36,CUST-0029,Spain
+INV-100945,SPORT-001,Yoga Mat,Sports,Fitness,36,2025-06-19 00:00:00,24.64,CUST-0047,France
+INV-100946,SPORT-002,Running Shoes,Sports,Footwear,38,2025-04-11 00:00:00,94.56,CUST-0024,Germany
+INV-100947,CLOTH-001,Cotton T-Shirt,Clothing,Tops,34,2024-09-24 00:00:00,21.01,CUST-0092,Belgium
+INV-100948,SPORT-002,Running Shoes,Sports,Footwear,47,2023-11-03 00:00:00,83.97,CUST-0088,Austria
+INV-100949,BOOK-001,Python Programming,Books,Technology,7,2024-08-02 00:00:00,37.95,CUST-0099,Portugal
+INV-100950,CLOTH-002,Jeans Classic,Clothing,Bottoms,27,2024-07-10 00:00:00,46.35,CUST-0051,Belgium
+INV-100951,HOME-002,Desk Lamp,Home & Garden,Lighting,3,2023-11-05 00:00:00,34.5,CUST-0001,Italy
+INV-100952,CLOTH-002,Jeans Classic,Clothing,Bottoms,30,2024-10-22 00:00:00,52.64,CUST-0069,Switzerland
+INV-100953,HOME-002,Desk Lamp,Home & Garden,Lighting,6,2023-11-22 00:00:00,32.19,CUST-0062,Switzerland
+INV-100954,ELEC-004,Bluetooth Speaker,Electronics,Audio,34,2024-02-21 00:00:00,73.76,CUST-0038,France
+INV-100955,SPORT-002,Running Shoes,Sports,Footwear,2,2024-04-26 00:00:00,98.97,CUST-0055,UK
+INV-100956,CLOTH-003,Winter Jacket,Clothing,Outerwear,47,2025-03-22 00:00:00,130.44,CUST-0079,Switzerland
+INV-100957,HOME-002,Desk Lamp,Home & Garden,Lighting,37,2024-08-13 00:00:00,37.31,CUST-0027,Netherlands
+INV-100958,HOME-002,Desk Lamp,Home & Garden,Lighting,40,2024-04-28 00:00:00,38.27,CUST-0012,UK
+INV-100959,ELEC-004,Bluetooth Speaker,Electronics,Audio,6,2024-01-31 00:00:00,83.93,CUST-0064,UK
+INV-100960,CLOTH-001,Cotton T-Shirt,Clothing,Tops,42,2024-05-03 00:00:00,20.07,CUST-0089,Switzerland
+INV-100961,ELEC-001,"Laptop Pro 15""",Electronics,Computers,7,2024-06-01 00:00:00,931.99,CUST-0009,Netherlands
+INV-100962,CLOTH-003,Winter Jacket,Clothing,Outerwear,5,2023-10-20 00:00:00,135.79,CUST-0021,UK
+INV-100963,SPORT-002,Running Shoes,Sports,Footwear,6,2023-08-25 00:00:00,92.63,CUST-0064,France
+INV-100964,ELEC-001,"Laptop Pro 15""",Electronics,Computers,20,2025-02-07 00:00:00,963.44,CUST-0013,UK
+INV-100965,BOOK-001,Python Programming,Books,Technology,48,2024-12-21 00:00:00,37.79,CUST-0040,Austria
+INV-100966,CLOTH-003,Winter Jacket,Clothing,Outerwear,28,2025-04-01 00:00:00,137.73,CUST-0037,Switzerland
+INV-100967,ELEC-004,Bluetooth Speaker,Electronics,Audio,37,2024-07-05 00:00:00,79.67,CUST-0053,UK
+INV-100968,HOME-002,Desk Lamp,Home & Garden,Lighting,12,2023-11-30 00:00:00,31.82,CUST-0076,Portugal
+INV-100969,SPORT-002,Running Shoes,Sports,Footwear,29,2023-10-27 00:00:00,97.96,CUST-0070,Germany
+INV-100970,CLOTH-003,Winter Jacket,Clothing,Outerwear,5,2023-09-02 00:00:00,119.16,CUST-0081,Italy
+INV-100971,HOME-002,Desk Lamp,Home & Garden,Lighting,11,2025-07-12 00:00:00,33.01,CUST-0046,Italy
+INV-100972,SPORT-002,Running Shoes,Sports,Footwear,31,2024-12-20 00:00:00,91.99,CUST-0005,Belgium
+INV-100973,ELEC-004,Bluetooth Speaker,Electronics,Audio,4,2024-09-03 00:00:00,83.03,CUST-0035,Spain
+INV-100974,ELEC-001,"Laptop Pro 15""",Electronics,Computers,13,2024-12-20 00:00:00,840.38,CUST-0046,Spain
+INV-100975,BOOK-001,Python Programming,Books,Technology,19,2025-02-18 00:00:00,43.76,CUST-0021,Switzerland
+INV-100976,BOOK-001,Python Programming,Books,Technology,15,2024-06-24 00:00:00,38.27,CUST-0053,Austria
+INV-100977,ELEC-002,Wireless Mouse,Electronics,Accessories,23,2025-07-23 00:00:00,31.8,CUST-0072,Portugal
+INV-100978,SPORT-002,Running Shoes,Sports,Footwear,45,2025-01-22 00:00:00,92.22,CUST-0036,Netherlands
+INV-100979,SPORT-002,Running Shoes,Sports,Footwear,2,2024-09-26 00:00:00,89.78,CUST-0099,Portugal
+INV-100980,SPORT-001,Yoga Mat,Sports,Fitness,1,2024-01-08 00:00:00,24.87,CUST-0058,Spain
+INV-100981,CLOTH-003,Winter Jacket,Clothing,Outerwear,14,2024-10-27 00:00:00,139.27,CUST-0008,Italy
+INV-100982,HOME-002,Desk Lamp,Home & Garden,Lighting,47,2024-01-12 00:00:00,33.3,CUST-0048,Spain
+INV-100983,CLOTH-002,Jeans Classic,Clothing,Bottoms,31,2024-01-13 00:00:00,49.15,CUST-0043,Austria
+INV-100984,SPORT-001,Yoga Mat,Sports,Fitness,34,2024-01-07 00:00:00,27.48,CUST-0085,Switzerland
+INV-100985,ELEC-003,USB-C Cable,Electronics,Accessories,27,2025-07-15 00:00:00,11.93,CUST-0041,Germany
+INV-100986,ELEC-002,Wireless Mouse,Electronics,Accessories,50,2025-05-03 00:00:00,32.64,CUST-0012,Netherlands
+INV-100987,CLOTH-002,Jeans Classic,Clothing,Bottoms,44,2025-06-17 00:00:00,45.44,CUST-0015,Switzerland
+INV-100988,BOOK-001,Python Programming,Books,Technology,14,2024-07-21 00:00:00,38.22,CUST-0073,Netherlands
+INV-100989,ELEC-003,USB-C Cable,Electronics,Accessories,1,2025-05-31 00:00:00,13.98,CUST-0036,Austria
+INV-100990,CLOTH-001,Cotton T-Shirt,Clothing,Tops,45,2024-06-08 00:00:00,21.47,CUST-0100,UK
+INV-100991,BOOK-001,Python Programming,Books,Technology,49,2023-12-04 00:00:00,42.22,CUST-0026,UK
+INV-100992,ELEC-002,Wireless Mouse,Electronics,Accessories,2,2024-12-05 00:00:00,31.06,CUST-0017,Netherlands
+INV-100993,HOME-002,Desk Lamp,Home & Garden,Lighting,6,2024-04-14 00:00:00,36.98,CUST-0098,Portugal
+INV-100994,SPORT-001,Yoga Mat,Sports,Fitness,36,2025-05-02 00:00:00,23.05,CUST-0051,Netherlands
+INV-100995,CLOTH-001,Cotton T-Shirt,Clothing,Tops,25,2024-10-05 00:00:00,21.89,CUST-0028,France
+INV-100996,ELEC-002,Wireless Mouse,Electronics,Accessories,36,2023-08-24 00:00:00,31.71,CUST-0007,Switzerland
+INV-100997,ELEC-002,Wireless Mouse,Electronics,Accessories,8,2025-04-17 00:00:00,28.78,CUST-0067,Germany
+INV-100998,ELEC-004,Bluetooth Speaker,Electronics,Audio,32,2024-09-22 00:00:00,80.59,CUST-0016,Portugal
+INV-100999,ELEC-002,Wireless Mouse,Electronics,Accessories,-2,2024-09-18 00:00:00,32.39,CUST-0064,France
