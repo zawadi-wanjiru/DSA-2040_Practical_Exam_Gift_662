@@ -13,22 +13,33 @@ This repository contains the complete implementation of the DSA 2040 practical e
 
 ```
 DSA-2040_Practical_Exam_Gift_662/
-├── data_warehousing/
-│   ├── sql_scripts/          # SQL CREATE statements and OLAP queries
-│   ├── visualizations/       # Charts and diagrams
-│   ├── reports/             # Analysis reports
-│   ├── schema_design.py     # Star schema design and explanation
-│   ├── etl_retail.py        # ETL process implementation
-│   └── retail_dw.db         # SQLite database (generated)
-├── data_mining/
-│   ├── datasets/            # Generated/downloaded datasets
-│   ├── visualizations/      # Charts and plots
-│   ├── reports/             # Analysis reports
-│   ├── preprocessing_iris.py    # Data preprocessing and exploration
-│   ├── clustering_iris.py       # K-Means clustering implementation
-│   └── mining_iris_basket.py    # Classification and association rules
+├── section_1_data_warehousing/
+│   ├── task_1_warehouse_design/
+│   │   ├── star_schema_diagram.png          # Star schema visualization
+│   │   ├── create_tables.sql                # SQL CREATE statements
+│   │   └── design_explanation.md            # Schema design rationale
+│   ├── task_2_etl_process/
+│   │   ├── etl_retail.py                    # ETL implementation
+│   │   ├── retail_data.csv                  # Generated synthetic data
+│   │   └── retail_dw.db                     # SQLite database
+│   └── task_3_olap_queries/
+│       ├── olap_queries.sql                 # Roll-up, Drill-down, Slice queries
+│       ├── sales_visualization.png          # Query result visualization
+│       └── analysis_report.md               # OLAP analysis report
+├── section_2_data_mining/
+│   ├── task_1_preprocessing/
+│   │   ├── preprocessing_iris.py            # Data preprocessing & exploration
+│   │   └── visualizations/                  # Pairplot, heatmap, boxplots
+│   ├── task_2_clustering/
+│   │   ├── clustering_iris.py               # K-Means clustering
+│   │   └── visualizations/                  # Cluster plots, elbow curve
+│   └── task_3_classification_association/
+│       ├── mining_iris_basket.py            # Classification & Apriori
+│       ├── datasets/                        # Synthetic transactional data
+│       └── visualizations/                  # Decision tree, comparisons
 ├── DSA 2040 FS 2025 End Semester Exam.pdf
-└── README.md
+├── README.md
+└── .gitignore
 ```
 
 ## Requirements
@@ -47,23 +58,19 @@ pip install pandas numpy scikit-learn matplotlib seaborn mlxtend faker
 
 ### Task 1: Data Warehouse Design (15 Marks)
 **Files:**
-- `data_warehousing/schema_design.py`
-- `data_warehousing/sql_scripts/create_tables.sql`
-- `data_warehousing/visualizations/star_schema_diagram.png`
+- `section_1_data_warehousing/task_1_warehouse_design/create_tables.sql`
+- `section_1_data_warehousing/task_1_warehouse_design/star_schema_diagram.png`
+- `section_1_data_warehousing/task_1_warehouse_design/design_explanation.md`
 
 **Description:** Designed a star schema for a retail data warehouse with:
 - 1 Fact Table (SalesFact)
 - 4 Dimension Tables (CustomerDim, ProductDim, TimeDim, StoreDim)
 
-**Run:**
-```bash
-python data_warehousing/schema_design.py
-```
-
 ### Task 2: ETL Process Implementation (20 Marks)
 **Files:**
-- `data_warehousing/etl_retail.py`
-- `data_warehousing/retail_dw.db`
+- `section_1_data_warehousing/task_2_etl_process/etl_retail.py`
+- `section_1_data_warehousing/task_2_etl_process/retail_dw.db`
+- `section_1_data_warehousing/task_2_etl_process/retail_data.csv`
 
 **Description:** Complete ETL pipeline that:
 - Extracts data from synthetic retail dataset
@@ -72,14 +79,14 @@ python data_warehousing/schema_design.py
 
 **Run:**
 ```bash
-python data_warehousing/etl_retail.py
+python section_1_data_warehousing/task_2_etl_process/etl_retail.py
 ```
 
 ### Task 3: OLAP Queries and Analysis (15 Marks)
 **Files:**
-- `data_warehousing/sql_scripts/olap_queries.sql`
-- `data_warehousing/visualizations/sales_analysis.png`
-- `data_warehousing/reports/olap_analysis.md`
+- `section_1_data_warehousing/task_3_olap_queries/olap_queries.sql`
+- `section_1_data_warehousing/task_3_olap_queries/sales_visualization.png`
+- `section_1_data_warehousing/task_3_olap_queries/analysis_report.md`
 
 **Description:** Implemented OLAP operations:
 - Roll-up: Total sales by country and quarter
@@ -90,28 +97,24 @@ python data_warehousing/etl_retail.py
 
 ### Task 1: Data Preprocessing and Exploration (15 Marks)
 **Files:**
-- `data_mining/preprocessing_iris.py`
-- `data_mining/visualizations/pairplot.png`
-- `data_mining/visualizations/correlation_heatmap.png`
-- `data_mining/visualizations/boxplots.png`
+- `section_2_data_mining/task_1_preprocessing/preprocessing_iris.py`
+- `section_2_data_mining/task_1_preprocessing/visualizations/`
 
 **Description:** Preprocessing and exploration of Iris dataset including:
 - Missing value handling
 - Min-Max normalization
 - Statistical analysis
-- Visualizations
+- Visualizations (pairplot, correlation heatmap, boxplots)
 
 **Run:**
 ```bash
-python data_mining/preprocessing_iris.py
+python section_2_data_mining/task_1_preprocessing/preprocessing_iris.py
 ```
 
 ### Task 2: Clustering (15 Marks)
 **Files:**
-- `data_mining/clustering_iris.py`
-- `data_mining/visualizations/cluster_visualization.png`
-- `data_mining/visualizations/elbow_curve.png`
-- `data_mining/reports/clustering_analysis.md`
+- `section_2_data_mining/task_2_clustering/clustering_iris.py`
+- `section_2_data_mining/task_2_clustering/visualizations/`
 
 **Description:** K-Means clustering implementation with:
 - Optimal k determination using elbow method
@@ -120,15 +123,14 @@ python data_mining/preprocessing_iris.py
 
 **Run:**
 ```bash
-python data_mining/clustering_iris.py
+python section_2_data_mining/task_2_clustering/clustering_iris.py
 ```
 
 ### Task 3: Classification and Association Rule Mining (20 Marks)
 **Files:**
-- `data_mining/mining_iris_basket.py`
-- `data_mining/visualizations/decision_tree.png`
-- `data_mining/visualizations/classifier_comparison.png`
-- `data_mining/reports/mining_analysis.md`
+- `section_2_data_mining/task_3_classification_association/mining_iris_basket.py`
+- `section_2_data_mining/task_3_classification_association/datasets/`
+- `section_2_data_mining/task_3_classification_association/visualizations/`
 
 **Description:**
 - Part A: Decision Tree and KNN classification with performance metrics
@@ -136,7 +138,7 @@ python data_mining/clustering_iris.py
 
 **Run:**
 ```bash
-python data_mining/mining_iris_basket.py
+python section_2_data_mining/task_3_classification_association/mining_iris_basket.py
 ```
 
 ## Datasets Used
@@ -185,19 +187,18 @@ python data_mining/mining_iris_basket.py
 
 2. **Run all tasks in order:**
    ```bash
-   # Data Warehousing
-   python data_warehousing/schema_design.py
-   python data_warehousing/etl_retail.py
+   # Section 1: Data Warehousing
+   python section_1_data_warehousing/task_2_etl_process/etl_retail.py
 
-   # Data Mining
-   python data_mining/preprocessing_iris.py
-   python data_mining/clustering_iris.py
-   python data_mining/mining_iris_basket.py
+   # Section 2: Data Mining
+   python section_2_data_mining/task_1_preprocessing/preprocessing_iris.py
+   python section_2_data_mining/task_2_clustering/clustering_iris.py
+   python section_2_data_mining/task_3_classification_association/mining_iris_basket.py
    ```
 
 3. **View database:**
    ```bash
-   sqlite3 data_warehousing/retail_dw.db
+   sqlite3 section_1_data_warehousing/task_2_etl_process/retail_dw.db
    # Or use DB Browser for SQLite GUI
    ```
 
