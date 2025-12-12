@@ -63,7 +63,8 @@ pip install pandas numpy scikit-learn matplotlib seaborn mlxtend faker
 **Files:**
 
 - `section_1_data_warehousing/task_1_warehouse_design/create_tables.sql`
-- `section_1_data_warehousing/task_1_warehouse_design/design_explanation.md` (includes ASCII schema diagram)
+- `section_1_data_warehousing/task_1_warehouse_design/star_schema_diagram.png`
+- `section_1_data_warehousing/task_1_warehouse_design/design_explanation.md`
 
 **Description:** Designed a star schema for a retail data warehouse with:
 

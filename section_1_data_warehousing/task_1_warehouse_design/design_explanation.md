@@ -84,65 +84,14 @@ This star schema effectively supports the required business queries:
 
 ## Schema Diagram
 
-```
-                           STAR SCHEMA DESIGN
+The star schema diagram below illustrates the relationship between the central fact table (SalesFact) and the four surrounding dimension tables:
 
-                         ┌─────────────────┐
-                         │   CustomerDim   │
-                         ├─────────────────┤
-                         │ customer_key PK │
-                         │ customer_id     │
-                         │ customer_name   │
-                         │ country         │
-                         │ region          │
-                         │ city            │
-                         │ age_group       │
-                         │ customer_segment│
-                         └────────┬────────┘
-                                  │
-                                  │
-         ┌─────────────────┐      │      ┌─────────────────┐
-         │   ProductDim    │      │      │    TimeDim      │
-         ├─────────────────┤      │      ├─────────────────┤
-         │ product_key PK  │      │      │ time_key PK     │
-         │ product_id      │      │      │ date            │
-         │ product_name    │      │      │ day_of_week     │
-         │ product_category│      │      │ month           │
-         │ subcategory     │      │      │ month_name      │
-         │ brand           │      │      │ quarter         │
-         │ unit_cost       │      │      │ year            │
-         └────────┬────────┘      │      │ is_weekend      │
-                  │                │      └────────┬────────┘
-                  │                │               │
-                  │         ┌──────▼──────────┐    │
-                  │         │   SalesFact     │    │
-                  │         ├─────────────────┤    │
-                  └────────►│ sales_key PK    │◄───┘
-                            │ customer_key FK │
-                            │ product_key FK  │
-                            │ time_key FK     │
-                            │ store_key FK    │
-                            │─────────────────│
-                            │ quantity        │
-                            │ unit_price      │
-                            │ total_sales     │
-                            │ discount_amount │
-                            │ profit          │
-                            └────────▲────────┘
-                                     │
-                                     │
-                         ┌───────────┴────────┐
-                         │    StoreDim        │
-                         ├────────────────────┤
-                         │ store_key PK       │
-                         │ store_id           │
-                         │ store_name         │
-                         │ store_country      │
-                         │ store_city         │
-                         │ store_type         │
-                         │ store_size         │
-                         └────────────────────┘
-```
+![Star Schema Diagram](star_schema_diagram.png)
+
+**Diagram Legend:**
+- **Central**: SalesFact (Fact Table)
+- **Surrounding**: CustomerDim, ProductDim, TimeDim, StoreDim (Dimension Tables)
+- **Relationships**: Foreign key connections from fact table to each dimension
 
 ---
 
