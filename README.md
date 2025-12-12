@@ -9,6 +9,8 @@
 
 This repository contains the complete implementation of the DSA 2040 practical exam covering Data Warehousing (50 marks) and Data Mining (50 marks) tasks.
 
+**Project Organization:** Files are organized by type (scripts, SQL, datasets, images, reports) rather than by task, making it easy to locate all Python scripts, data files, visualizations, or documentation in one place.
+
 ## Project Structure
 
 ```
@@ -128,7 +130,8 @@ python scripts/etl_retail.py
 **Files:**
 
 - `scripts/preprocessing_iris.py`
-- `images/`
+- `datasets/iris_normalized.csv`, `iris_train.csv`, `iris_test.csv`
+- `images/pairplot.png`, `correlation_heatmap.png`, `boxplots.png`, `distributions.png`
 
 **Description:** Preprocessing and exploration of Iris dataset including:
 
@@ -149,7 +152,7 @@ python scripts/preprocessing_iris.py
 
 - `scripts/clustering_iris.py`
 - `reports/clustering_analysis.md`
-- `images/` (elbow curve, cluster plots, PCA)
+- `images/elbow_curve.png`, `cluster_comparison.png`, `pca_clusters.png`, `cluster_pairplot.png`
 
 **Description:** K-Means clustering implementation with:
 
@@ -170,8 +173,8 @@ python scripts/clustering_iris.py
 **Files:**
 
 - `scripts/mining_iris_basket.py`
-- `datasets/`
-- `images/`
+- `datasets/transactions.csv`
+- `images/decision_tree.png`, `classifier_comparison.png`, `association_rules.png`
 
 **Description:**
 
@@ -228,6 +231,22 @@ python scripts/mining_iris_basket.py
 - Ensuring synthetic data mimics real-world patterns
 - Balancing code complexity with readability
 - Creating meaningful visualizations for all analyses
+
+## File Organization
+
+All files are organized by type for easy navigation:
+
+- **scripts/** - All Python implementation files (5 scripts)
+- **sql/** - SQL schema and query files (2 files)
+- **datasets/** - All data files and databases (6 files)
+- **images/** - All visualizations and diagrams (14 PNG files)
+- **reports/** - All analysis and documentation (3 markdown files)
+
+This structure makes it easy to:
+- Find all scripts in one location
+- Access all generated data files
+- View all visualizations together
+- Read all analysis reports
 
 ## How to Run Everything
 
